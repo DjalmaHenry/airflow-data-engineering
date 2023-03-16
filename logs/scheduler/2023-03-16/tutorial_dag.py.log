@@ -1,0 +1,85 @@
+[2023-03-16T00:38:39.886+0000] {processor.py:153} INFO - Started process (PID=3448) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:38:39.887+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-03-16T00:38:39.888+0000] {logging_mixin.py:137} INFO - [2023-03-16T00:38:39.888+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:38:39.894+0000] {logging_mixin.py:137} INFO - [2023-03-16T00:38:39.893+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 37
+    if(qtd > 1000):
+                  ^
+TabError: inconsistent use of tabs and spaces in indentation
+[2023-03-16T00:38:39.895+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:38:39.920+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.037 seconds
+[2023-03-16T00:39:10.036+0000] {processor.py:153} INFO - Started process (PID=3497) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:39:10.038+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-03-16T00:39:10.040+0000] {logging_mixin.py:137} INFO - [2023-03-16T00:39:10.039+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:39:10.047+0000] {logging_mixin.py:137} INFO - [2023-03-16T00:39:10.045+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 37
+    if(qtd > 1000):
+                  ^
+TabError: inconsistent use of tabs and spaces in indentation
+[2023-03-16T00:39:10.048+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:39:10.083+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.055 seconds
+[2023-03-16T00:39:41.063+0000] {processor.py:153} INFO - Started process (PID=3548) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:39:41.065+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-03-16T00:39:41.067+0000] {logging_mixin.py:137} INFO - [2023-03-16T00:39:41.067+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:39:41.074+0000] {logging_mixin.py:137} INFO - [2023-03-16T00:39:41.073+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 37
+    if(qtd > 1000):
+                  ^
+TabError: inconsistent use of tabs and spaces in indentation
+[2023-03-16T00:39:41.075+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:39:41.098+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.041 seconds
+[2023-03-16T00:40:11.314+0000] {processor.py:153} INFO - Started process (PID=3598) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:40:11.317+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-03-16T00:40:11.318+0000] {logging_mixin.py:137} INFO - [2023-03-16T00:40:11.318+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:40:11.331+0000] {logging_mixin.py:137} INFO - [2023-03-16T00:40:11.324+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 37
+    if(qtd > 1000):
+                  ^
+TabError: inconsistent use of tabs and spaces in indentation
+[2023-03-16T00:40:11.333+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:40:11.378+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.070 seconds
+[2023-03-16T00:40:42.321+0000] {processor.py:153} INFO - Started process (PID=3648) to work on /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:40:42.323+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag.py for tasks to queue
+[2023-03-16T00:40:42.324+0000] {logging_mixin.py:137} INFO - [2023-03-16T00:40:42.324+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:40:42.346+0000] {logging_mixin.py:137} INFO - [2023-03-16T00:40:42.341+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/tutorial_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tutorial_dag.py", line 37
+    if(qtd > 1000):
+                  ^
+TabError: inconsistent use of tabs and spaces in indentation
+[2023-03-16T00:40:42.347+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_dag.py
+[2023-03-16T00:40:42.411+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag.py took 0.098 seconds

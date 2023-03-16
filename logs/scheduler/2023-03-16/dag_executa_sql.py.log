@@ -1,0 +1,424 @@
+[2023-03-16T01:28:44.662+0000] {processor.py:153} INFO - Started process (PID=8451) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:28:44.663+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:28:44.664+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:28:44.664+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:28:44.738+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:28:44.735+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:28:44.739+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:28:44.739+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:28:44.745+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:28:44.855+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:28:44.855+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:dag_executa_sql
+[2023-03-16T01:28:44.860+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:28:44.860+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:dag_executa_sql
+[2023-03-16T01:28:44.863+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:28:44.863+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:dag_executa_sql
+[2023-03-16T01:28:44.864+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:28:44.864+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:28:44.872+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:28:44.872+0000] {dag.py:2714} INFO - Creating ORM DAG for dag_executa_sql
+[2023-03-16T01:28:44.880+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:28:44.880+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-15T23:30:00+00:00, run_after=2023-03-16T00:30:00+00:00
+[2023-03-16T01:28:44.892+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.234 seconds
+[2023-03-16T01:29:15.576+0000] {processor.py:153} INFO - Started process (PID=8503) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:29:15.580+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:29:15.581+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:29:15.581+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:29:15.627+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:29:15.626+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:29:15.628+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:29:15.628+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:29:15.636+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:29:15.681+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:29:15.681+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:29:15.708+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:29:15.707+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T00:30:00+00:00, run_after=2023-03-16T01:30:00+00:00
+[2023-03-16T01:29:15.724+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.159 seconds
+[2023-03-16T01:29:46.172+0000] {processor.py:153} INFO - Started process (PID=8556) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:29:46.174+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:29:46.176+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:29:46.176+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:29:46.220+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:29:46.215+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:29:46.223+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:29:46.222+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:29:46.230+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:29:46.259+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:29:46.259+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:29:46.282+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:29:46.282+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T00:30:00+00:00, run_after=2023-03-16T01:30:00+00:00
+[2023-03-16T01:29:46.296+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.131 seconds
+[2023-03-16T01:30:16.919+0000] {processor.py:153} INFO - Started process (PID=8612) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:30:16.922+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:30:16.923+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:30:16.923+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:30:17.070+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:30:17.068+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:30:17.074+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:30:17.074+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:30:17.083+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:30:17.116+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:30:17.116+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:30:17.138+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:30:17.138+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:30:17.165+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.254 seconds
+[2023-03-16T01:30:47.383+0000] {processor.py:153} INFO - Started process (PID=8665) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:30:47.385+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:30:47.387+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:30:47.387+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:30:47.476+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:30:47.475+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:30:47.478+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:30:47.477+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:30:47.486+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:30:47.520+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:30:47.520+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:30:47.570+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:30:47.570+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:30:47.604+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.228 seconds
+[2023-03-16T01:31:18.648+0000] {processor.py:153} INFO - Started process (PID=8717) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:31:18.650+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:31:18.652+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:31:18.651+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:31:18.693+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:31:18.691+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:31:18.694+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:31:18.694+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:31:18.701+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:31:18.729+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:31:18.729+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:31:18.771+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:31:18.771+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:31:18.790+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.149 seconds
+[2023-03-16T01:31:49.137+0000] {processor.py:153} INFO - Started process (PID=8769) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:31:49.140+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:31:49.141+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:31:49.141+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:31:49.183+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:31:49.182+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:31:49.185+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:31:49.184+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:31:49.190+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:31:49.210+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:31:49.210+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:31:49.230+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:31:49.230+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:31:49.242+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.110 seconds
+[2023-03-16T01:32:19.615+0000] {processor.py:153} INFO - Started process (PID=8820) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:32:19.617+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:32:19.619+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:32:19.619+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:32:19.679+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:32:19.678+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:32:19.681+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:32:19.680+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:32:19.688+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:32:19.716+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:32:19.716+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:32:19.737+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:32:19.737+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:32:19.750+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.143 seconds
+[2023-03-16T01:32:49.887+0000] {processor.py:153} INFO - Started process (PID=8871) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:32:49.890+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:32:49.891+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:32:49.891+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:32:49.928+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:32:49.927+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:32:49.929+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:32:49.929+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:32:49.934+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:32:49.953+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:32:49.953+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:32:49.970+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:32:49.970+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:32:49.981+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.099 seconds
+[2023-03-16T01:33:20.189+0000] {processor.py:153} INFO - Started process (PID=8923) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:33:20.192+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:33:20.194+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:33:20.194+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:33:20.238+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:33:20.237+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:33:20.239+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:33:20.239+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:33:20.246+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:33:20.272+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:33:20.272+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:33:20.292+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:33:20.292+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:33:20.304+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.124 seconds
+[2023-03-16T01:33:51.259+0000] {processor.py:153} INFO - Started process (PID=8975) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:33:51.262+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:33:51.263+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:33:51.263+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:33:51.321+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:33:51.320+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:33:51.322+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:33:51.322+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:33:51.330+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:33:51.353+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:33:51.353+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:33:51.374+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:33:51.374+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:33:51.386+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.134 seconds
+[2023-03-16T01:34:22.182+0000] {processor.py:153} INFO - Started process (PID=9027) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:34:22.190+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:34:22.193+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:34:22.193+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:34:22.236+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:34:22.234+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:34:22.237+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:34:22.237+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:34:22.245+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:34:22.272+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:34:22.272+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:34:22.322+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:34:22.322+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:34:22.338+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.181 seconds
+[2023-03-16T01:34:52.986+0000] {processor.py:153} INFO - Started process (PID=9079) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:34:52.987+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:34:52.988+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:34:52.988+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:34:53.022+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:34:53.021+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:34:53.023+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:34:53.023+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:34:53.033+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:34:53.066+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:34:53.066+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:34:53.089+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:34:53.088+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:34:53.102+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.122 seconds
+[2023-03-16T01:35:23.604+0000] {processor.py:153} INFO - Started process (PID=9131) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:35:23.606+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:35:23.607+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:35:23.607+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:35:23.651+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:35:23.645+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:35:23.653+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:35:23.653+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:35:23.671+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:35:23.699+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:35:23.699+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:35:23.745+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:35:23.745+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:35:23.764+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.165 seconds
+[2023-03-16T01:35:54.263+0000] {processor.py:153} INFO - Started process (PID=9183) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:35:54.266+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:35:54.267+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:35:54.267+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:35:54.314+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:35:54.313+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:35:54.315+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:35:54.315+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:35:54.324+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:35:54.370+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:35:54.370+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:35:54.394+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:35:54.394+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:35:54.410+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.163 seconds
+[2023-03-16T01:36:24.643+0000] {processor.py:153} INFO - Started process (PID=9235) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:36:24.645+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:36:24.647+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:36:24.647+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:36:24.688+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:36:24.687+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:36:24.689+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:36:24.689+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:36:24.696+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:36:24.719+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:36:24.719+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:36:24.738+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:36:24.738+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:36:24.751+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.118 seconds
+[2023-03-16T01:36:55.233+0000] {processor.py:153} INFO - Started process (PID=9287) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:36:55.239+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:36:55.248+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:36:55.246+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:36:55.348+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:36:55.342+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:36:55.351+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:36:55.350+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:36:55.384+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:36:55.415+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:36:55.415+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:36:55.447+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:36:55.447+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:36:55.463+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.246 seconds
+[2023-03-16T01:37:25.581+0000] {processor.py:153} INFO - Started process (PID=9346) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:37:25.586+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:37:25.588+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:37:25.588+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:37:25.648+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:37:25.644+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:37:25.650+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:37:25.650+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:37:25.658+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:37:25.685+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:37:25.684+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:37:25.708+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:37:25.707+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:37:25.722+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.157 seconds
+[2023-03-16T01:37:56.063+0000] {processor.py:153} INFO - Started process (PID=9398) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:37:56.070+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:37:56.074+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:37:56.074+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:37:56.126+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:37:56.125+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:37:56.127+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:37:56.127+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:37:56.134+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:37:56.175+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:37:56.175+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:37:56.198+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:37:56.198+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:37:56.212+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.155 seconds
+[2023-03-16T01:38:26.679+0000] {processor.py:153} INFO - Started process (PID=9450) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:38:26.683+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-03-16T01:38:26.685+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:38:26.685+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:38:26.721+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:38:26.720+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-03-16T01:38:26.722+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:38:26.722+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-03-16T01:38:26.727+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-03-16T01:38:26.748+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:38:26.748+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-16T01:38:26.765+0000] {logging_mixin.py:137} INFO - [2023-03-16T01:38:26.765+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-03-16T01:30:00+00:00, run_after=2023-03-16T02:30:00+00:00
+[2023-03-16T01:38:26.777+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.107 seconds

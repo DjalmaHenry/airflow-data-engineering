@@ -1,0 +1,32 @@
+[2023-03-16T01:06:04.814+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tutorial_executa_dag.is_suited manual__2023-03-16T01:06:01.070864+00:00 [queued]>
+[2023-03-16T01:06:04.821+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tutorial_executa_dag.is_suited manual__2023-03-16T01:06:01.070864+00:00 [queued]>
+[2023-03-16T01:06:04.822+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T01:06:04.822+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-03-16T01:06:04.823+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-16T01:06:04.831+0000] {taskinstance.py:1303} INFO - Executing <Task(BranchPythonOperator): is_suited> on 2023-03-16 01:06:01.070864+00:00
+[2023-03-16T01:06:04.838+0000] {standard_task_runner.py:55} INFO - Started process 1500 to run task
+[2023-03-16T01:06:04.841+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'tutorial_executa_dag', 'is_suited', 'manual__2023-03-16T01:06:01.070864+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/tutorial_executa_dag.py', '--cfg-path', '/tmp/tmpnquh8qt_']
+[2023-03-16T01:06:04.842+0000] {standard_task_runner.py:83} INFO - Job 16: Subtask is_suited
+[2023-03-16T01:06:04.900+0000] {task_command.py:388} INFO - Running <TaskInstance: tutorial_executa_dag.is_suited manual__2023-03-16T01:06:01.070864+00:00 [running]> on host 6049ca5ef1d4
+[2023-03-16T01:06:04.947+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial_executa_dag
+AIRFLOW_CTX_TASK_ID=is_suited
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-16T01:06:01.070864+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-16T01:06:01.070864+00:00
+[2023-03-16T01:06:04.949+0000] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 210, in execute
+    branch = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: handle_is_suited() missing 1 required positional argument: 'taskInstance'
+[2023-03-16T01:06:04.957+0000] {taskinstance.py:1326} INFO - Marking task as FAILED. dag_id=tutorial_executa_dag, task_id=is_suited, execution_date=20230316T010601, start_date=20230316T010604, end_date=20230316T010604
+[2023-03-16T01:06:04.964+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 16 for task is_suited (handle_is_suited() missing 1 required positional argument: 'taskInstance'; 1500)
+[2023-03-16T01:06:05.016+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-03-16T01:06:05.043+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check
