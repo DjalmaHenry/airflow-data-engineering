@@ -1,7 +1,0 @@
-[2023-04-03T14:37:50.549+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/tutorial_executa_dag.py
-[2023-04-03T14:37:50.551+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_executa_dag.py for tasks to queue
-[2023-04-03T14:37:50.553+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:50.553+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_executa_dag.py
-[2023-04-03T14:37:51.564+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_executa_dag']) retrieved from /opt/airflow/dags/tutorial_executa_dag.py
-[2023-04-03T14:37:51.656+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:51.650+0000] {dag.py:2693} INFO - Sync 1 DAGs
-[2023-04-03T14:37:52.009+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:52.009+0000] {dag.py:3444} INFO - Setting next_dagrun for tutorial_executa_dag to 2023-04-03T14:30:00+00:00, run_after=2023-04-03T15:30:00+00:00
-[2023-04-03T14:37:52.030+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_executa_dag.py took 1.488 seconds

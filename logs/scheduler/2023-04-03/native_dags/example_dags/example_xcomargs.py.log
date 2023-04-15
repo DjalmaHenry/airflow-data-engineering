@@ -1,5 +1,0 @@
-[2023-04-03T14:37:53.516+0000] {processor.py:153} INFO - Started process (PID=58) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
-[2023-04-03T14:37:53.524+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
-[2023-04-03T14:37:53.530+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:53.529+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
-[2023-04-03T14:37:53.633+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
-[2023-04-03T14:37:54.516+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:54.515+0000] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...

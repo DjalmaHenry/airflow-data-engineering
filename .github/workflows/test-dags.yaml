@@ -1,0 +1,51 @@
+name: Test and Deploy DAGs
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: pip install -r airflow/dev/requirements.txt
+
+      - name: Test DAGs
+        run: pytest airflow/dev/tests/dags/test_dag_integrity.py
+
+      - name: Copy DAGs to production folder
+        run: |
+          mkdir -p airflow/dags && cp -Rv airflow/dev/dags/* airflow/dags/
+        if: ${{ success() }}
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Update example.txt"
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GHA_TOKEN }}
+          branch: master
+
+      
+
+#      - name: Build and push Docker image
+#        uses: docker/build-push-action@v2
+#        with:
+#          context: .
+#          file: docker/airflow/Dockerfile
+#          push: true
+#          tags: your-dockerhub-username/your-docker-image-name:${{ github.sha }}
+#          username: ${{ secrets.DOCKERHUB_USERNAME }}
+#          password: ${{ secrets.DOCKERHUB_TOKEN }}
+#        if: ${{ success() }}
