@@ -1,0 +1,24 @@
+[2023-04-15T12:27:55.660+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_dag_advanced.check_day_of_week manual__2023-04-15T12:16:02.636211+00:00 [queued]>
+[2023-04-15T12:27:55.668+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_dag_advanced.check_day_of_week manual__2023-04-15T12:16:02.636211+00:00 [queued]>
+[2023-04-15T12:27:55.668+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T12:27:55.669+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 3
+[2023-04-15T12:27:55.669+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T12:27:55.678+0000] {taskinstance.py:1303} INFO - Executing <Task(BranchDayOfWeekOperator): check_day_of_week> on 2023-04-15 12:16:02.636211+00:00
+[2023-04-15T12:27:55.690+0000] {standard_task_runner.py:55} INFO - Started process 1251 to run task
+[2023-04-15T12:27:55.697+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'example_dag_advanced', 'check_day_of_week', 'manual__2023-04-15T12:16:02.636211+00:00', '--job-id', '123', '--raw', '--subdir', 'DAGS_FOLDER/example_dag_advanced.py', '--cfg-path', '/tmp/tmpbr1n83ot']
+[2023-04-15T12:27:55.698+0000] {standard_task_runner.py:83} INFO - Job 123: Subtask check_day_of_week
+[2023-04-15T12:27:55.767+0000] {task_command.py:388} INFO - Running <TaskInstance: example_dag_advanced.check_day_of_week manual__2023-04-15T12:16:02.636211+00:00 [running]> on host 229ecb906897
+[2023-04-15T12:27:55.823+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=community
+AIRFLOW_CTX_DAG_ID=example_dag_advanced
+AIRFLOW_CTX_TASK_ID=check_day_of_week
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-15T12:16:02.636211+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-15T12:16:02.636211+00:00
+[2023-04-15T12:27:55.824+0000] {skipmixin.py:155} INFO - Following branch weekend
+[2023-04-15T12:27:55.825+0000] {skipmixin.py:211} INFO - Skipping tasks ['weekday']
+[2023-04-15T12:27:55.871+0000] {taskinstance.py:1326} INFO - Marking task as SUCCESS. dag_id=example_dag_advanced, task_id=check_day_of_week, execution_date=20230415T121602, start_date=20230415T122755, end_date=20230415T122755
+[2023-04-15T12:27:55.910+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-15T12:27:55.950+0000] {taskinstance.py:2585} INFO - 1 downstream tasks scheduled from follow-on schedule check

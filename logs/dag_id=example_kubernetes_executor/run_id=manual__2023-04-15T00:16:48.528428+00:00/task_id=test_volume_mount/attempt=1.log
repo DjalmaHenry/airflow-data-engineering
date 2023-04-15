@@ -1,0 +1,34 @@
+[2023-04-15T00:16:54.895+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_kubernetes_executor.test_volume_mount manual__2023-04-15T00:16:48.528428+00:00 [queued]>
+[2023-04-15T00:16:54.909+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_kubernetes_executor.test_volume_mount manual__2023-04-15T00:16:48.528428+00:00 [queued]>
+[2023-04-15T00:16:54.911+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T00:16:54.920+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-15T00:16:54.921+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T00:16:54.968+0000] {taskinstance.py:1303} INFO - Executing <Task(_PythonDecoratedOperator): test_volume_mount> on 2023-04-15 00:16:48.528428+00:00
+[2023-04-15T00:16:54.978+0000] {standard_task_runner.py:55} INFO - Started process 103 to run task
+[2023-04-15T00:16:54.982+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'example_kubernetes_executor', 'test_volume_mount', 'manual__2023-04-15T00:16:48.528428+00:00', '--job-id', '71', '--raw', '--subdir', '/home/***/.local/lib/python3.7/site-packages/***/example_dags/example_kubernetes_executor.py', '--cfg-path', '/tmp/tmpmedo8m6c']
+[2023-04-15T00:16:54.983+0000] {standard_task_runner.py:83} INFO - Job 71: Subtask test_volume_mount
+[2023-04-15T00:16:55.176+0000] {task_command.py:388} INFO - Running <TaskInstance: example_kubernetes_executor.test_volume_mount manual__2023-04-15T00:16:48.528428+00:00 [running]> on host 229ecb906897
+[2023-04-15T00:16:55.287+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=example_kubernetes_executor
+AIRFLOW_CTX_TASK_ID=test_volume_mount
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-15T00:16:48.528428+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-15T00:16:48.528428+00:00
+[2023-04-15T00:16:55.292+0000] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 217, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py", line 93, in test_volume_mount
+    with open("/foo/volume_mount_test.txt", "w") as foo:
+FileNotFoundError: [Errno 2] No such file or directory: '/foo/volume_mount_test.txt'
+[2023-04-15T00:16:55.357+0000] {taskinstance.py:1326} INFO - Marking task as FAILED. dag_id=example_kubernetes_executor, task_id=test_volume_mount, execution_date=20230415T001648, start_date=20230415T001654, end_date=20230415T001655
+[2023-04-15T00:16:55.378+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 71 for task test_volume_mount ([Errno 2] No such file or directory: '/foo/volume_mount_test.txt'; 103)
+[2023-04-15T00:16:55.437+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-04-15T00:16:55.537+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

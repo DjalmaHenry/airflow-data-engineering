@@ -1,0 +1,4 @@
+[2023-04-03T14:37:53.653+0000] {processor.py:153} INFO - Started process (PID=59) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-04-03T14:37:53.655+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-04-03T14:37:53.658+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:53.657+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-04-03T14:37:54.622+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:54.622+0000] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...

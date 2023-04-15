@@ -1,0 +1,24 @@
+[2023-04-15T00:16:51.864+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_kubernetes_executor.start_task manual__2023-04-15T00:16:48.528428+00:00 [queued]>
+[2023-04-15T00:16:51.878+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_kubernetes_executor.start_task manual__2023-04-15T00:16:48.528428+00:00 [queued]>
+[2023-04-15T00:16:51.879+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T00:16:51.880+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-15T00:16:51.880+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T00:16:52.109+0000] {taskinstance.py:1303} INFO - Executing <Task(_PythonDecoratedOperator): start_task> on 2023-04-15 00:16:48.528428+00:00
+[2023-04-15T00:16:52.134+0000] {standard_task_runner.py:55} INFO - Started process 98 to run task
+[2023-04-15T00:16:52.162+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'example_kubernetes_executor', 'start_task', 'manual__2023-04-15T00:16:48.528428+00:00', '--job-id', '69', '--raw', '--subdir', '/home/***/.local/lib/python3.7/site-packages/***/example_dags/example_kubernetes_executor.py', '--cfg-path', '/tmp/tmpt_yleys7']
+[2023-04-15T00:16:52.167+0000] {standard_task_runner.py:83} INFO - Job 69: Subtask start_task
+[2023-04-15T00:16:52.402+0000] {task_command.py:388} INFO - Running <TaskInstance: example_kubernetes_executor.start_task manual__2023-04-15T00:16:48.528428+00:00 [running]> on host 229ecb906897
+[2023-04-15T00:16:52.562+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=example_kubernetes_executor
+AIRFLOW_CTX_TASK_ID=start_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-15T00:16:48.528428+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-15T00:16:48.528428+00:00
+[2023-04-15T00:16:52.566+0000] {logging_mixin.py:137} INFO - annotated!
+[2023-04-15T00:16:52.567+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-15T00:16:52.590+0000] {taskinstance.py:1326} INFO - Marking task as SUCCESS. dag_id=example_kubernetes_executor, task_id=start_task, execution_date=20230415T001648, start_date=20230415T001651, end_date=20230415T001652
+[2023-04-15T00:16:52.660+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-15T00:16:52.742+0000] {taskinstance.py:2585} INFO - 3 downstream tasks scheduled from follow-on schedule check

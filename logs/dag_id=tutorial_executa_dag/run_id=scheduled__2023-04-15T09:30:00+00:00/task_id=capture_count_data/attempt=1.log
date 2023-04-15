@@ -1,0 +1,23 @@
+[2023-04-15T10:49:38.533+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tutorial_executa_dag.capture_count_data scheduled__2023-04-15T09:30:00+00:00 [queued]>
+[2023-04-15T10:49:38.550+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tutorial_executa_dag.capture_count_data scheduled__2023-04-15T09:30:00+00:00 [queued]>
+[2023-04-15T10:49:38.551+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T10:49:38.554+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-15T10:49:38.555+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T10:49:38.582+0000] {taskinstance.py:1303} INFO - Executing <Task(PythonOperator): capture_count_data> on 2023-04-15 09:30:00+00:00
+[2023-04-15T10:49:38.593+0000] {standard_task_runner.py:55} INFO - Started process 719 to run task
+[2023-04-15T10:49:38.607+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'tutorial_executa_dag', 'capture_count_data', 'scheduled__2023-04-15T09:30:00+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/tutorial_executa_dag.py', '--cfg-path', '/tmp/tmpj2miibrk']
+[2023-04-15T10:49:38.619+0000] {standard_task_runner.py:83} INFO - Job 108: Subtask capture_count_data
+[2023-04-15T10:49:38.800+0000] {task_command.py:388} INFO - Running <TaskInstance: tutorial_executa_dag.capture_count_data scheduled__2023-04-15T09:30:00+00:00 [running]> on host 229ecb906897
+[2023-04-15T10:49:39.713+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial_executa_dag
+AIRFLOW_CTX_TASK_ID=capture_count_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-15T09:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-15T09:30:00+00:00
+[2023-04-15T10:49:41.521+0000] {python.py:177} INFO - Done. Returned value was: 1000
+[2023-04-15T10:49:41.660+0000] {taskinstance.py:1326} INFO - Marking task as SUCCESS. dag_id=tutorial_executa_dag, task_id=capture_count_data, execution_date=20230415T093000, start_date=20230415T104938, end_date=20230415T104941
+[2023-04-15T10:49:41.753+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-15T10:49:41.865+0000] {taskinstance.py:2585} INFO - 1 downstream tasks scheduled from follow-on schedule check

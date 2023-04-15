@@ -1,0 +1,938 @@
+[2023-04-15T00:13:02.637+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:13:02.639+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:13:02.641+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:13:02.641+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:13:02.668+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:13:02.661+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:13:02.670+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:13:02.703+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.071 seconds
+[2023-04-15T00:13:32.887+0000] {processor.py:153} INFO - Started process (PID=95) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:13:32.890+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:13:32.892+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:13:32.891+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:13:32.906+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:13:32.903+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:13:32.906+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:13:32.928+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.044 seconds
+[2023-04-15T00:14:02.996+0000] {processor.py:153} INFO - Started process (PID=148) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:14:03.000+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:14:03.004+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:14:03.003+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:14:03.022+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:14:03.020+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:14:03.023+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:14:03.043+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.057 seconds
+[2023-04-15T00:14:33.129+0000] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:14:33.131+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:14:33.132+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:14:33.132+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:14:33.144+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:14:33.142+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:14:33.144+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:14:33.161+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.036 seconds
+[2023-04-15T00:15:03.943+0000] {processor.py:153} INFO - Started process (PID=254) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:15:03.949+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:15:03.952+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:15:03.952+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:15:03.977+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:15:03.975+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:15:03.978+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:15:04.002+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.073 seconds
+[2023-04-15T00:15:34.460+0000] {processor.py:153} INFO - Started process (PID=307) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:15:34.462+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:15:34.463+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:15:34.463+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:15:34.492+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:15:34.486+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:15:34.495+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:15:34.526+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.070 seconds
+[2023-04-15T00:16:05.448+0000] {processor.py:153} INFO - Started process (PID=369) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:16:05.452+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:16:05.461+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:16:05.460+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:16:05.513+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:16:05.507+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:16:05.514+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:16:05.546+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.105 seconds
+[2023-04-15T00:16:35.995+0000] {processor.py:153} INFO - Started process (PID=421) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:16:36.009+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:16:36.017+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:16:36.015+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:16:36.107+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:16:36.080+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:16:36.112+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:16:36.212+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.229 seconds
+[2023-04-15T00:17:06.918+0000] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:17:06.921+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:17:06.924+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:17:06.923+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:17:06.947+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:17:06.945+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:17:06.948+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:17:06.979+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.069 seconds
+[2023-04-15T00:17:37.648+0000] {processor.py:153} INFO - Started process (PID=530) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:17:37.650+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:17:37.651+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:17:37.651+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:17:37.666+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:17:37.664+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:17:37.667+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:17:37.697+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.053 seconds
+[2023-04-15T00:18:08.341+0000] {processor.py:153} INFO - Started process (PID=584) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:18:08.343+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:18:08.345+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:18:08.345+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:18:08.357+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:18:08.355+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:18:08.357+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:18:08.402+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.070 seconds
+[2023-04-15T00:18:38.498+0000] {processor.py:153} INFO - Started process (PID=638) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:18:38.499+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:18:38.501+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:18:38.500+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:18:38.512+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:18:38.511+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:18:38.515+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:18:38.584+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.091 seconds
+[2023-04-15T00:19:09.202+0000] {processor.py:153} INFO - Started process (PID=692) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:19:09.205+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:19:09.206+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:19:09.206+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:19:09.221+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:19:09.219+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:19:09.222+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:19:09.246+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.051 seconds
+[2023-04-15T00:19:39.520+0000] {processor.py:153} INFO - Started process (PID=746) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:19:39.523+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:19:39.525+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:19:39.524+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:19:39.538+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:19:39.536+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:19:39.538+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:19:39.561+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.050 seconds
+[2023-04-15T00:20:10.465+0000] {processor.py:153} INFO - Started process (PID=800) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:20:10.468+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:20:10.469+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:20:10.469+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:20:10.491+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:20:10.488+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:20:10.492+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:20:10.519+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.061 seconds
+[2023-04-15T00:20:40.817+0000] {processor.py:153} INFO - Started process (PID=853) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:20:40.820+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:20:40.821+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:20:40.821+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:20:40.836+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:20:40.834+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:20:40.838+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:20:40.859+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.051 seconds
+[2023-04-15T00:21:10.914+0000] {processor.py:153} INFO - Started process (PID=907) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:21:10.918+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:21:10.920+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:21:10.919+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:21:10.940+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:21:10.936+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:21:10.945+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:21:10.970+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.064 seconds
+[2023-04-15T00:21:41.677+0000] {processor.py:153} INFO - Started process (PID=961) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:21:41.680+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:21:41.681+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:21:41.681+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:21:41.698+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:21:41.695+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:21:41.698+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:21:41.719+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.050 seconds
+[2023-04-15T00:22:11.772+0000] {processor.py:153} INFO - Started process (PID=1015) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:22:11.775+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:22:11.776+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:22:11.776+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:22:11.793+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:22:11.788+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:22:11.796+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:22:11.838+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.075 seconds
+[2023-04-15T00:22:41.969+0000] {processor.py:153} INFO - Started process (PID=1071) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:22:41.971+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:22:41.973+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:22:41.972+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:22:41.984+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:22:41.982+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:22:41.984+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:22:42.002+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.038 seconds
+[2023-04-15T00:23:12.121+0000] {processor.py:153} INFO - Started process (PID=1125) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:23:12.123+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:23:12.123+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:23:12.123+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:23:12.133+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:23:12.131+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:23:12.133+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:23:12.149+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.032 seconds
+[2023-04-15T00:23:42.285+0000] {processor.py:153} INFO - Started process (PID=1179) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:23:42.288+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:23:42.289+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:23:42.289+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:23:42.317+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:23:42.313+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:23:42.318+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:23:42.352+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.074 seconds
+[2023-04-15T00:24:12.626+0000] {processor.py:153} INFO - Started process (PID=1233) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:24:12.628+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:24:12.629+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:24:12.629+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:24:12.650+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:24:12.647+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:24:12.651+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:24:12.685+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.070 seconds
+[2023-04-15T00:24:42.887+0000] {processor.py:153} INFO - Started process (PID=1287) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:24:42.889+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:24:42.890+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:24:42.890+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:24:42.903+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:24:42.901+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:24:42.904+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:24:42.928+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.045 seconds
+[2023-04-15T00:25:13.241+0000] {processor.py:153} INFO - Started process (PID=1341) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:25:13.244+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:25:13.246+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:25:13.246+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:25:13.267+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:25:13.265+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:25:13.268+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:25:13.293+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.060 seconds
+[2023-04-15T00:25:43.371+0000] {processor.py:153} INFO - Started process (PID=1394) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:25:43.375+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:25:43.376+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:25:43.376+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:25:43.392+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:25:43.390+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:25:43.393+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:25:43.418+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.058 seconds
+[2023-04-15T00:26:14.060+0000] {processor.py:153} INFO - Started process (PID=1449) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:26:14.061+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:26:14.062+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:26:14.062+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:26:14.085+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:26:14.083+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:26:14.086+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:26:14.110+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.055 seconds
+[2023-04-15T00:26:44.583+0000] {processor.py:153} INFO - Started process (PID=1503) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:26:44.585+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:26:44.586+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:26:44.585+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:26:44.597+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:26:44.596+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:26:44.598+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:26:44.618+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.038 seconds
+[2023-04-15T00:27:14.927+0000] {processor.py:153} INFO - Started process (PID=1557) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:27:14.928+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:27:14.929+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:27:14.929+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:27:14.938+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:27:14.937+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:27:14.939+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:27:14.968+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.045 seconds
+[2023-04-15T00:27:45.605+0000] {processor.py:153} INFO - Started process (PID=1609) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:27:45.607+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:27:45.608+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:27:45.608+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:27:45.622+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:27:45.620+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:27:45.623+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:27:45.649+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.049 seconds
+[2023-04-15T00:28:15.940+0000] {processor.py:153} INFO - Started process (PID=1663) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:28:15.943+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:28:15.944+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:28:15.944+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:28:15.956+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:28:15.954+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:28:15.957+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:28:15.978+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.042 seconds
+[2023-04-15T00:28:46.176+0000] {processor.py:153} INFO - Started process (PID=1717) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:28:46.178+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:28:46.179+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:28:46.179+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:28:46.190+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:28:46.188+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:28:46.191+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:28:46.210+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.039 seconds
+[2023-04-15T00:29:16.727+0000] {processor.py:153} INFO - Started process (PID=1771) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:29:16.731+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:29:16.734+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:29:16.734+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:29:16.745+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:29:16.743+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:29:16.746+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:29:16.766+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.044 seconds
+[2023-04-15T00:29:47.204+0000] {processor.py:153} INFO - Started process (PID=1825) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:29:47.206+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:29:47.209+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:29:47.208+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:29:47.220+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:29:47.218+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:29:47.221+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:29:47.243+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.044 seconds
+[2023-04-15T00:30:18.115+0000] {processor.py:153} INFO - Started process (PID=1883) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:30:18.117+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:30:18.118+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:30:18.118+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:30:18.128+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:30:18.126+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:30:18.128+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:30:18.152+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.040 seconds
+[2023-04-15T00:30:48.488+0000] {processor.py:153} INFO - Started process (PID=1937) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:30:48.491+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:30:48.492+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:30:48.492+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:30:48.501+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:30:48.500+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:30:48.502+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:30:48.525+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.041 seconds
+[2023-04-15T00:31:18.869+0000] {processor.py:153} INFO - Started process (PID=1991) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:31:18.870+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:31:18.873+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:31:18.872+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:31:18.881+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:31:18.879+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:31:18.882+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:31:18.902+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.038 seconds
+[2023-04-15T00:31:49.292+0000] {processor.py:153} INFO - Started process (PID=2045) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:31:49.294+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:31:49.295+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:31:49.295+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:31:49.308+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:31:49.306+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:31:49.309+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:31:49.333+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.044 seconds
+[2023-04-15T00:32:20.029+0000] {processor.py:153} INFO - Started process (PID=2099) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:32:20.031+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:32:20.032+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:32:20.032+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:32:20.047+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:32:20.044+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:32:20.047+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:32:20.082+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.061 seconds
+[2023-04-15T00:32:50.728+0000] {processor.py:153} INFO - Started process (PID=2153) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:32:50.730+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:32:50.732+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:32:50.731+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:32:50.762+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:32:50.756+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:32:50.763+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:32:50.790+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.068 seconds
+[2023-04-15T00:45:10.573+0000] {processor.py:153} INFO - Started process (PID=2207) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:45:10.579+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T00:45:10.584+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:45:10.584+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:45:10.626+0000] {logging_mixin.py:137} INFO - [2023-04-15T00:45:10.620+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T00:45:10.629+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T00:45:10.705+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.140 seconds
+[2023-04-15T01:33:24.380+0000] {processor.py:153} INFO - Started process (PID=2261) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T01:33:24.382+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T01:33:24.385+0000] {logging_mixin.py:137} INFO - [2023-04-15T01:33:24.385+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T01:33:24.445+0000] {logging_mixin.py:137} INFO - [2023-04-15T01:33:24.441+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T01:33:24.447+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T01:33:24.508+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.135 seconds
+[2023-04-15T02:39:51.199+0000] {processor.py:153} INFO - Started process (PID=2319) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T02:39:51.204+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T02:39:51.206+0000] {logging_mixin.py:137} INFO - [2023-04-15T02:39:51.206+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T02:39:51.232+0000] {logging_mixin.py:137} INFO - [2023-04-15T02:39:51.227+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T02:39:51.234+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T02:39:51.312+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.128 seconds
+[2023-04-15T03:45:39.909+0000] {processor.py:153} INFO - Started process (PID=2377) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T03:45:39.912+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T03:45:39.914+0000] {logging_mixin.py:137} INFO - [2023-04-15T03:45:39.914+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T03:45:39.952+0000] {logging_mixin.py:137} INFO - [2023-04-15T03:45:39.947+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T03:45:39.957+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T03:45:40.041+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.146 seconds
+[2023-04-15T04:47:54.798+0000] {processor.py:153} INFO - Started process (PID=2435) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T04:47:54.800+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T04:47:54.801+0000] {logging_mixin.py:137} INFO - [2023-04-15T04:47:54.801+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T04:47:54.816+0000] {logging_mixin.py:137} INFO - [2023-04-15T04:47:54.814+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T04:47:54.817+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T04:47:54.855+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.061 seconds
+[2023-04-15T05:46:07.742+0000] {processor.py:153} INFO - Started process (PID=2494) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T05:46:07.744+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T05:46:07.745+0000] {logging_mixin.py:137} INFO - [2023-04-15T05:46:07.745+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T05:46:07.757+0000] {logging_mixin.py:137} INFO - [2023-04-15T05:46:07.755+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T05:46:07.758+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T05:46:07.784+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.045 seconds
+[2023-04-15T06:50:13.197+0000] {processor.py:153} INFO - Started process (PID=2552) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T06:50:13.199+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T06:50:13.201+0000] {logging_mixin.py:137} INFO - [2023-04-15T06:50:13.201+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T06:50:13.234+0000] {logging_mixin.py:137} INFO - [2023-04-15T06:50:13.224+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T06:50:13.239+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T06:50:13.332+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.143 seconds
+[2023-04-15T07:55:07.637+0000] {processor.py:153} INFO - Started process (PID=2610) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T07:55:07.646+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T07:55:07.657+0000] {logging_mixin.py:137} INFO - [2023-04-15T07:55:07.656+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T07:55:07.805+0000] {logging_mixin.py:137} INFO - [2023-04-15T07:55:07.769+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T07:55:07.813+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T07:55:08.072+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.477 seconds
+[2023-04-15T08:35:09.882+0000] {processor.py:153} INFO - Started process (PID=2670) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T08:35:09.886+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T08:35:09.901+0000] {logging_mixin.py:137} INFO - [2023-04-15T08:35:09.901+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T08:35:10.038+0000] {logging_mixin.py:137} INFO - [2023-04-15T08:35:10.010+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T08:35:10.049+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T08:35:10.334+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.466 seconds
+[2023-04-15T09:13:10.658+0000] {processor.py:153} INFO - Started process (PID=2725) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T09:13:10.660+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T09:13:10.660+0000] {logging_mixin.py:137} INFO - [2023-04-15T09:13:10.660+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T09:13:10.682+0000] {logging_mixin.py:137} INFO - [2023-04-15T09:13:10.675+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T09:13:10.685+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T09:13:10.723+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.070 seconds
+[2023-04-15T09:47:18.367+0000] {processor.py:153} INFO - Started process (PID=2783) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T09:47:18.372+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T09:47:18.398+0000] {logging_mixin.py:137} INFO - [2023-04-15T09:47:18.398+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T09:47:18.433+0000] {logging_mixin.py:137} INFO - [2023-04-15T09:47:18.426+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T09:47:18.435+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T09:47:18.503+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.165 seconds
+[2023-04-15T10:49:35.581+0000] {processor.py:153} INFO - Started process (PID=2841) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T10:49:35.592+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T10:49:35.595+0000] {logging_mixin.py:137} INFO - [2023-04-15T10:49:35.595+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T10:49:35.691+0000] {logging_mixin.py:137} INFO - [2023-04-15T10:49:35.688+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T10:49:35.696+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T10:49:35.851+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.291 seconds
+[2023-04-15T11:22:12.827+0000] {processor.py:153} INFO - Started process (PID=2895) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T11:22:12.829+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T11:22:12.830+0000] {logging_mixin.py:137} INFO - [2023-04-15T11:22:12.830+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T11:22:12.843+0000] {logging_mixin.py:137} INFO - [2023-04-15T11:22:12.841+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T11:22:12.845+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T11:22:12.880+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.059 seconds
+[2023-04-15T12:02:36.138+0000] {processor.py:153} INFO - Started process (PID=2949) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:02:36.144+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:02:36.160+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:02:36.159+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:02:36.207+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:02:36.197+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:02:36.210+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:02:36.299+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.181 seconds
+[2023-04-15T12:03:06.794+0000] {processor.py:153} INFO - Started process (PID=3006) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:03:06.800+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:03:06.803+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:03:06.802+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:03:06.823+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:03:06.821+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:03:06.824+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:03:06.862+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.088 seconds
+[2023-04-15T12:03:37.008+0000] {processor.py:153} INFO - Started process (PID=3061) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:03:37.010+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:03:37.011+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:03:37.011+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:03:37.028+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:03:37.026+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:03:37.029+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:03:37.081+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.080 seconds
+[2023-04-15T12:04:07.201+0000] {processor.py:153} INFO - Started process (PID=3113) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:04:07.212+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:04:07.214+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:04:07.214+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:04:07.237+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:04:07.234+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:04:07.238+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:04:07.282+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.102 seconds
+[2023-04-15T12:09:30.449+0000] {processor.py:153} INFO - Started process (PID=3168) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:09:30.451+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:09:30.452+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:09:30.452+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:09:30.488+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:09:30.485+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:09:30.489+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:09:30.569+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.141 seconds
+[2023-04-15T12:10:01.586+0000] {processor.py:153} INFO - Started process (PID=3222) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:10:01.588+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:10:01.590+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:10:01.589+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:10:01.606+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:10:01.604+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:10:01.607+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:10:01.644+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.063 seconds
+[2023-04-15T12:10:32.271+0000] {processor.py:153} INFO - Started process (PID=3276) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:10:32.272+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:10:32.273+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:10:32.273+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:10:32.285+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:10:32.283+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:10:32.285+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:10:32.306+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.043 seconds
+[2023-04-15T12:11:03.230+0000] {processor.py:153} INFO - Started process (PID=3330) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:11:03.234+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:11:03.235+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:11:03.235+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:11:03.250+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:11:03.248+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:11:03.251+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:11:03.276+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.053 seconds
+[2023-04-15T12:11:34.163+0000] {processor.py:153} INFO - Started process (PID=3384) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:11:34.164+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:11:34.166+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:11:34.166+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:11:34.181+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:11:34.179+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:11:34.182+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:11:34.220+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.061 seconds
+[2023-04-15T12:12:05.014+0000] {processor.py:153} INFO - Started process (PID=3438) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:12:05.017+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:12:05.018+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:12:05.018+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:12:05.035+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:12:05.033+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:12:05.036+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:12:05.080+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.071 seconds
+[2023-04-15T12:12:35.996+0000] {processor.py:153} INFO - Started process (PID=3492) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:12:35.998+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:12:36.000+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:12:35.999+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:12:36.017+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:12:36.014+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:12:36.018+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:12:36.044+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.057 seconds
+[2023-04-15T12:13:06.297+0000] {processor.py:153} INFO - Started process (PID=3546) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:13:06.300+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:13:06.303+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:13:06.303+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:13:06.323+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:13:06.320+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:13:06.325+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:13:06.352+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.060 seconds
+[2023-04-15T12:13:36.761+0000] {processor.py:153} INFO - Started process (PID=3600) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:13:36.764+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:13:36.766+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:13:36.766+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:13:36.784+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:13:36.781+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:13:36.785+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:13:36.806+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.052 seconds
+[2023-04-15T12:14:07.795+0000] {processor.py:153} INFO - Started process (PID=3654) to work on /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:14:07.797+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2023-04-15T12:14:07.799+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:14:07.799+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:14:07.830+0000] {logging_mixin.py:137} INFO - [2023-04-15T12:14:07.826+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 3, in <module>
+    from tasks.compare_model import compare_model
+ModuleNotFoundError: No module named 'tasks'
+[2023-04-15T12:14:07.831+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2023-04-15T12:14:07.866+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.080 seconds

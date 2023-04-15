@@ -1,0 +1,28 @@
+[2023-04-14T14:30:27.476+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tutorial_executa_dag.unsuited scheduled__2023-04-04T13:30:00+00:00 [queued]>
+[2023-04-14T14:30:27.484+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tutorial_executa_dag.unsuited scheduled__2023-04-04T13:30:00+00:00 [queued]>
+[2023-04-14T14:30:27.485+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-14T14:30:27.485+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-14T14:30:27.486+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-14T14:30:27.513+0000] {taskinstance.py:1303} INFO - Executing <Task(BashOperator): unsuited> on 2023-04-04 13:30:00+00:00
+[2023-04-14T14:30:27.526+0000] {standard_task_runner.py:55} INFO - Started process 69 to run task
+[2023-04-14T14:30:27.537+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'tutorial_executa_dag', 'unsuited', 'scheduled__2023-04-04T13:30:00+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/tutorial_executa_dag.py', '--cfg-path', '/tmp/tmpaod1blh6']
+[2023-04-14T14:30:27.539+0000] {standard_task_runner.py:83} INFO - Job 53: Subtask unsuited
+[2023-04-14T14:30:27.630+0000] {task_command.py:388} INFO - Running <TaskInstance: tutorial_executa_dag.unsuited scheduled__2023-04-04T13:30:00+00:00 [running]> on host 229ecb906897
+[2023-04-14T14:30:27.722+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial_executa_dag
+AIRFLOW_CTX_TASK_ID=unsuited
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-04T13:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-04T13:30:00+00:00
+[2023-04-14T14:30:27.738+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-04-14T14:30:27.743+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "echo 'Quantidade não OK'"]
+[2023-04-14T14:30:27.763+0000] {subprocess.py:86} INFO - Output:
+[2023-04-14T14:30:27.767+0000] {subprocess.py:93} INFO - Quantidade não OK
+[2023-04-14T14:30:27.768+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-04-14T14:30:27.795+0000] {taskinstance.py:1326} INFO - Marking task as SUCCESS. dag_id=tutorial_executa_dag, task_id=unsuited, execution_date=20230404T133000, start_date=20230414T143027, end_date=20230414T143027
+[2023-04-14T14:30:27.826+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-14T14:30:27.846+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

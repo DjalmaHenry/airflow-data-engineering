@@ -1,0 +1,21 @@
+[2023-04-03T14:37:50.586+0000] {processor.py:153} INFO - Started process (PID=35) to work on /opt/airflow/dags/dag_executa_sql.py
+[2023-04-03T14:37:50.589+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_executa_sql.py for tasks to queue
+[2023-04-03T14:37:50.592+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:50.592+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/dag_executa_sql.py
+[2023-04-03T14:37:50.658+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:50.656+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: criar_tabela_db.sql
+[2023-04-03T14:37:50.660+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:50.660+0000] {abstractoperator.py:185} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: insere_dados_tabela_db.sql
+[2023-04-03T14:37:50.666+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_executa_sql']) retrieved from /opt/airflow/dags/dag_executa_sql.py
+[2023-04-03T14:37:50.758+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:50.758+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-03T14:37:50.813+0000] {logging_mixin.py:137} INFO - [2023-04-03T14:37:50.812+0000] {dag.py:3444} INFO - Setting next_dagrun for dag_executa_sql to 2023-04-03T13:30:00+00:00, run_after=2023-04-03T14:30:00+00:00
+[2023-04-03T14:37:50.860+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_executa_sql.py took 0.276 seconds

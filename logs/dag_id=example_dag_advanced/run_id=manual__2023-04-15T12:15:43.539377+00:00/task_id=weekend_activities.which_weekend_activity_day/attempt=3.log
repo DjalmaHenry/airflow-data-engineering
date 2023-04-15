@@ -1,0 +1,33 @@
+[2023-04-15T12:27:51.771+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_dag_advanced.weekend_activities.which_weekend_activity_day manual__2023-04-15T12:15:43.539377+00:00 [queued]>
+[2023-04-15T12:27:51.778+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_dag_advanced.weekend_activities.which_weekend_activity_day manual__2023-04-15T12:15:43.539377+00:00 [queued]>
+[2023-04-15T12:27:51.778+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T12:27:51.779+0000] {taskinstance.py:1283} INFO - Starting attempt 3 of 3
+[2023-04-15T12:27:51.779+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-15T12:27:51.787+0000] {taskinstance.py:1303} INFO - Executing <Task(BranchPythonOperator): weekend_activities.which_weekend_activity_day> on 2023-04-15 12:15:43.539377+00:00
+[2023-04-15T12:27:51.791+0000] {standard_task_runner.py:55} INFO - Started process 1240 to run task
+[2023-04-15T12:27:51.794+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'example_dag_advanced', 'weekend_activities.which_weekend_activity_day', 'manual__2023-04-15T12:15:43.539377+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/example_dag_advanced.py', '--cfg-path', '/tmp/tmp9f63jp_g']
+[2023-04-15T12:27:51.795+0000] {standard_task_runner.py:83} INFO - Job 122: Subtask weekend_activities.which_weekend_activity_day
+[2023-04-15T12:27:51.845+0000] {task_command.py:388} INFO - Running <TaskInstance: example_dag_advanced.weekend_activities.which_weekend_activity_day manual__2023-04-15T12:15:43.539377+00:00 [running]> on host 229ecb906897
+[2023-04-15T12:27:51.905+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=community
+AIRFLOW_CTX_DAG_ID=example_dag_advanced
+AIRFLOW_CTX_TASK_ID=weekend_activities.which_weekend_activity_day
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-15T12:15:43.539377+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-15T12:15:43.539377+00:00
+[2023-04-15T12:27:51.907+0000] {python.py:177} INFO - Done. Returned value was: weekend_activities.going_to_the_beach
+[2023-04-15T12:27:51.908+0000] {python.py:211} INFO - Branch callable return weekend_activities.going_to_the_beach
+[2023-04-15T12:27:51.908+0000] {skipmixin.py:155} INFO - Following branch weekend_activities.going_to_the_beach
+[2023-04-15T12:27:51.917+0000] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 212, in execute
+    self.skip_all_except(context["ti"], branch)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/skipmixin.py", line 186, in skip_all_except
+    "'branch_task_ids' must contain only valid task_ids. "
+airflow.exceptions.AirflowException: 'branch_task_ids' must contain only valid task_ids. Invalid tasks found: {'weekend_activities.going_to_the_beach'}.
+[2023-04-15T12:27:51.920+0000] {taskinstance.py:1326} INFO - Marking task as FAILED. dag_id=example_dag_advanced, task_id=weekend_activities.which_weekend_activity_day, execution_date=20230415T121543, start_date=20230415T122751, end_date=20230415T122751
+[2023-04-15T12:27:51.927+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 122 for task weekend_activities.which_weekend_activity_day ('branch_task_ids' must contain only valid task_ids. Invalid tasks found: {'weekend_activities.going_to_the_beach'}.; 1240)
+[2023-04-15T12:27:51.968+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-04-15T12:27:51.992+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check
