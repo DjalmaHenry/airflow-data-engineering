@@ -471,3 +471,17 @@
 [2023-04-16T15:52:05.846+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:05.846+0000] {dag.py:2693} INFO - Sync 1 DAGs
 [2023-04-16T15:52:05.874+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:05.874+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_almoco to None, run_after=None
 [2023-04-16T15:52:05.901+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_almoco_dag.py took 0.132 seconds
+[2023-04-16T15:52:36.561+0000] {processor.py:153} INFO - Started process (PID=296) to work on /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-16T15:52:36.563+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_almoco_dag.py for tasks to queue
+[2023-04-16T15:52:36.564+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:36.564+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-16T15:52:36.589+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_almoco']) retrieved from /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-16T15:52:36.615+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:36.614+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:52:36.633+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:36.633+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_almoco to None, run_after=None
+[2023-04-16T15:52:36.645+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_almoco_dag.py took 0.088 seconds
+[2023-04-16T15:53:06.788+0000] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-16T15:53:06.792+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_almoco_dag.py for tasks to queue
+[2023-04-16T15:53:06.799+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:53:06.798+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-16T15:53:06.853+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_almoco']) retrieved from /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-16T15:53:06.960+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:53:06.960+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:53:07.029+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:53:07.029+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_almoco to None, run_after=None
+[2023-04-16T15:53:07.066+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_almoco_dag.py took 0.297 seconds

@@ -1312,3 +1312,21 @@
 [2023-04-16T15:52:08.084+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:08.084+0000] {dag.py:2693} INFO - Sync 1 DAGs
 [2023-04-16T15:52:08.099+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:08.099+0000] {dag.py:3444} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
 [2023-04-16T15:52:08.118+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.104 seconds
+[2023-04-16T15:52:39.138+0000] {processor.py:153} INFO - Started process (PID=318) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-04-16T15:52:39.140+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-04-16T15:52:39.142+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:39.142+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-04-16T15:52:39.157+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:39.157+0000] {taskmixin.py:211} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, send_email already registered for DAG: example_dag_decorator
+[2023-04-16T15:52:39.158+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:39.158+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmailOperator): send_email>, prepare_email already registered for DAG: example_dag_decorator
+[2023-04-16T15:52:39.168+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-04-16T15:52:39.256+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:39.255+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:52:39.288+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:39.287+0000] {dag.py:3444} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-04-16T15:52:39.303+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.168 seconds
+[2023-04-16T15:53:09.784+0000] {processor.py:153} INFO - Started process (PID=369) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-04-16T15:53:09.785+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-04-16T15:53:09.785+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:53:09.785+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-04-16T15:53:09.797+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:53:09.797+0000] {taskmixin.py:211} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, send_email already registered for DAG: example_dag_decorator
+[2023-04-16T15:53:09.797+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:53:09.797+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmailOperator): send_email>, prepare_email already registered for DAG: example_dag_decorator
+[2023-04-16T15:53:09.806+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-04-16T15:53:09.847+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:53:09.847+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:53:09.861+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:53:09.861+0000] {dag.py:3444} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-04-16T15:53:09.872+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.090 seconds
