@@ -26,7 +26,7 @@ s3 = boto3.client(
     aws_secret_access_key=MINIO_KEY
 )
 
-for iteraction in range(0, 10000):
+for iteraction in range(0, 100):
 
     complete_name = fake.name()
     complete_name_split = complete_name.split(' ')

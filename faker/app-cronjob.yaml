@@ -16,7 +16,7 @@ spec:
           restartPolicy: OnFailure
           containers:
           - name: eda-ingestion-app
-            image: eda-ingestion-app:0.0.5
+            image: eda-ingestion-app:1.0.3
             env:
             - name: MINIO_USER
               value:  'myaccesskey'

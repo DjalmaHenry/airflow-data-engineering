@@ -182,7 +182,7 @@ def example_dag_advanced():
         # accessible as their own "XCom" key.
         inviting_friends = EmailOperator(
             task_id="inviting_friends",
-            to="friends@community.com", # Email to send email to
+            to="djalmahenry@outlook.com", # Email to send email to
             subject=going_to_the_beach["subject"], # Email subject
             html_content=going_to_the_beach["body"], # Eamil body content
         )
