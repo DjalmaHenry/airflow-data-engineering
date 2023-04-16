@@ -1,14 +1,40 @@
 {
-    "nome": "Nome da receita",
-    "time": 1200,
-    "ingredientes": [
-        "Ingrediente 1",
-        "Ingrediente 2",
-        "Ingrediente 3"
-    ],
-    "instrucoes": [
-        "Instrução 1",
-        "Instrução 2",
-        "Instrução 3"
+    "receitas": [
+        {
+            "nome": "Lanche da Manhã",
+            "tipo": "lanche",
+            "time": 600,
+            "ingredientes": [
+                "1 fatia de pão integral",
+                "1 colher de sopa de pasta de amendoim",
+                "1 banana"
+            ],
+            "instrucoes": [
+                "Toste levemente a fatia de pão integral.",
+                "Espalhe a pasta de amendoim sobre a fatia de pão.",
+                "Corte a banana em rodelas e coloque sobre a pasta de amendoim.",
+                "Sirva imediatamente."
+            ]
+        },
+        {
+            "nome": "Almoço",
+            "tipo": "refeição principal",
+            "time": 1800,
+            "ingredientes": [
+                "1 peito de frango grelhado",
+                "1 xícara de arroz integral cozido",
+                "1 xícara de brócolis cozido no vapor",
+                "1 colher de sopa de azeite",
+                "Sal e pimenta a gosto"
+            ],
+            "instrucoes": [
+                "Tempere o peito de frango com sal e pimenta a gosto.",
+                "Grelhe o frango até que esteja bem cozido.",
+                "Cozinhe o arroz integral conforme as instruções da embalagem.",
+                "Cozinhe o brócolis no vapor até ficar macio.",
+                "Regue o brócolis com azeite e tempere com sal e pimenta a gosto.",
+                "Sirva o frango grelhado com o arroz integral e o brócolis cozido no vapor."
+            ]
+        }
     ]
 }

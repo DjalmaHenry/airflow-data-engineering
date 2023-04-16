@@ -354,3 +354,146 @@ KeyError: 'RECEITA_JSON_PATH'
 [2023-04-16T14:49:29.660+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:49:29.660+0000] {dag.py:2693} INFO - Sync 1 DAGs
 [2023-04-16T14:49:29.680+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:49:29.680+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita to None, run_after=None
 [2023-04-16T14:49:29.693+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.101 seconds
+[2023-04-16T14:50:00.276+0000] {processor.py:153} INFO - Started process (PID=388) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:50:00.280+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:50:00.282+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:50:00.282+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:50:00.331+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita']) retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:50:00.381+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:50:00.381+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T14:50:00.407+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:50:00.407+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita to None, run_after=None
+[2023-04-16T14:50:00.438+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.167 seconds
+[2023-04-16T14:50:30.698+0000] {processor.py:153} INFO - Started process (PID=438) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:50:30.700+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:50:30.701+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:50:30.701+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:50:30.722+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita']) retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:50:30.767+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:50:30.767+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T14:50:30.793+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:50:30.793+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita to None, run_after=None
+[2023-04-16T14:50:30.806+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.113 seconds
+[2023-04-16T14:51:00.938+0000] {processor.py:153} INFO - Started process (PID=488) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:51:00.941+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:51:00.945+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:51:00.945+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:51:00.990+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita']) retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:51:01.089+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:51:01.089+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T14:51:01.128+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:51:01.128+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita to None, run_after=None
+[2023-04-16T14:51:01.146+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.214 seconds
+[2023-04-16T14:51:31.385+0000] {processor.py:153} INFO - Started process (PID=538) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:51:31.387+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:51:31.388+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:51:31.388+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:51:31.413+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita']) retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:51:31.457+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:51:31.457+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T14:51:31.485+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:51:31.485+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita to None, run_after=None
+[2023-04-16T14:51:31.502+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.123 seconds
+[2023-04-16T14:52:01.624+0000] {processor.py:153} INFO - Started process (PID=588) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:52:01.626+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:52:01.629+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:52:01.629+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:52:01.658+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita']) retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:52:01.707+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:52:01.706+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T14:52:01.731+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:52:01.731+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita to None, run_after=None
+[2023-04-16T14:52:01.744+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.126 seconds
+[2023-04-16T14:52:32.078+0000] {processor.py:153} INFO - Started process (PID=638) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:52:32.080+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:52:32.081+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:52:32.081+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:52:32.112+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita']) retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:52:32.155+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:52:32.155+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T14:52:32.189+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:52:32.189+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita to None, run_after=None
+[2023-04-16T14:52:32.212+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.141 seconds
+[2023-04-16T14:53:02.599+0000] {processor.py:153} INFO - Started process (PID=687) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:53:02.601+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:53:02.602+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:53:02.602+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:53:02.626+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita']) retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:53:02.672+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:53:02.672+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T14:53:02.695+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:53:02.695+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita to None, run_after=None
+[2023-04-16T14:53:02.709+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.115 seconds
+[2023-04-16T14:53:33.003+0000] {processor.py:153} INFO - Started process (PID=736) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:53:33.005+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:53:33.007+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:53:33.007+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:53:33.030+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita']) retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:53:33.059+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:53:33.059+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T14:53:33.080+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:53:33.080+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita to None, run_after=None
+[2023-04-16T14:53:33.095+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.098 seconds
+[2023-04-16T14:54:03.472+0000] {processor.py:153} INFO - Started process (PID=786) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:54:03.473+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:54:03.474+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:54:03.474+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:54:03.506+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita']) retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:54:03.537+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:54:03.537+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T14:54:03.559+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:54:03.558+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita to None, run_after=None
+[2023-04-16T14:54:03.572+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.107 seconds
+[2023-04-16T14:54:22.007+0000] {processor.py:153} INFO - Started process (PID=836) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:54:22.010+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:54:22.011+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:54:22.011+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:54:22.019+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:54:22.013+0000] {dagbag.py:559} ERROR - [Errno 2] No such file or directory: '/opt/airflow/dags/preparo_receita_dag.py'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 546, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 302, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 314, in _load_modules_from_file
+    if not might_contain_dag(filepath, safe_mode):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/file.py", line 355, in might_contain_dag
+    with open(file_path, "rb") as dag_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/preparo_receita_dag.py'
+[2023-04-16T14:54:22.020+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:54:22.043+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.041 seconds
+[2023-04-16T14:54:52.504+0000] {processor.py:153} INFO - Started process (PID=887) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:54:52.508+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:54:52.509+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:54:52.509+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:54:52.514+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:54:52.511+0000] {dagbag.py:559} ERROR - [Errno 2] No such file or directory: '/opt/airflow/dags/preparo_receita_dag.py'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 546, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 302, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 314, in _load_modules_from_file
+    if not might_contain_dag(filepath, safe_mode):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/file.py", line 355, in might_contain_dag
+    with open(file_path, "rb") as dag_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/preparo_receita_dag.py'
+[2023-04-16T14:54:52.514+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:54:52.544+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.049 seconds
+[2023-04-16T14:55:23.086+0000] {processor.py:153} INFO - Started process (PID=937) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:55:23.089+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:55:23.091+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:55:23.091+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:55:23.096+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:55:23.093+0000] {dagbag.py:559} ERROR - [Errno 2] No such file or directory: '/opt/airflow/dags/preparo_receita_dag.py'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 546, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 302, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 314, in _load_modules_from_file
+    if not might_contain_dag(filepath, safe_mode):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/file.py", line 355, in might_contain_dag
+    with open(file_path, "rb") as dag_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/preparo_receita_dag.py'
+[2023-04-16T14:55:23.097+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:55:23.113+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.034 seconds
+[2023-04-16T14:55:53.347+0000] {processor.py:153} INFO - Started process (PID=987) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:55:53.350+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:55:53.352+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:55:53.351+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:55:53.356+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:55:53.354+0000] {dagbag.py:559} ERROR - [Errno 2] No such file or directory: '/opt/airflow/dags/preparo_receita_dag.py'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 546, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 302, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 314, in _load_modules_from_file
+    if not might_contain_dag(filepath, safe_mode):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/file.py", line 355, in might_contain_dag
+    with open(file_path, "rb") as dag_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/preparo_receita_dag.py'
+[2023-04-16T14:55:53.356+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:55:53.372+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.030 seconds
+[2023-04-16T14:56:23.754+0000] {processor.py:153} INFO - Started process (PID=1037) to work on /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:56:23.756+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_dag.py for tasks to queue
+[2023-04-16T14:56:23.758+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:56:23.758+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:56:23.763+0000] {logging_mixin.py:137} INFO - [2023-04-16T14:56:23.762+0000] {dagbag.py:559} ERROR - [Errno 2] No such file or directory: '/opt/airflow/dags/preparo_receita_dag.py'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 546, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 302, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 314, in _load_modules_from_file
+    if not might_contain_dag(filepath, safe_mode):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/file.py", line 355, in might_contain_dag
+    with open(file_path, "rb") as dag_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/preparo_receita_dag.py'
+[2023-04-16T14:56:23.764+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/preparo_receita_dag.py
+[2023-04-16T14:56:23.778+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_dag.py took 0.029 seconds

@@ -8,11 +8,17 @@ from airflow.operators.dummy_operator import DummyOperator
 # Caminho absoluto do a pasta onde este arquivo está localizado
 caminho_absoluto = os.path.dirname(os.path.abspath(__file__))
 
+
 def verificar_tempo_preparo(**kwargs):
     with open(os.path.join(caminho_absoluto, 'receita.json'), 'r') as f:
         dados_receita = json.load(f)
+        receita_almoco = None
+        for receita in dados_receita['receitas']:
+            if receita['nome'] == 'Almoço':
+                receita_almoco = receita
+                break
 
-    tempo_preparo = dados_receita['time']
+    tempo_preparo = receita_almoco['time']
     agora = datetime.now()
     limite = agora.replace(hour=12, minute=0, second=0)
 
@@ -28,23 +34,31 @@ def verificar_tempo_preparo(**kwargs):
             f.write('Não há tempo suficiente para preparar a receita.\n')
         raise ValueError('Não há tempo suficiente para preparar a receita.')
 
+
 def formatar_receita(**kwargs):
     with open(os.path.join(caminho_absoluto, 'receita.json'), 'r') as f:
         dados_receita = json.load(f)
+        receita_almoco = None
+        for receita in dados_receita['receitas']:
+            if receita['nome'] == 'Almoço':
+                receita_almoco = receita
+                break
 
     with open(os.path.join(caminho_absoluto, 'receita.txt'), 'a') as f:
-        f.write('Receita: {}\n'.format(dados_receita['nome']))
+        f.write('Receita: {}\n'.format(receita_almoco['nome']))
         f.write('Ingredientes:\n')
-        for ingrediente in dados_receita['ingredientes']:
+        for ingrediente in receita_almoco['ingredientes']:
             f.write(' - {}\n'.format(ingrediente))
 
         f.write('Instruções:\n')
-        for i, instrucao in enumerate(dados_receita['instrucoes']):
+        for i, instrucao in enumerate(receita_almoco['instrucoes']):
             f.write('{}. {}\n'.format(i + 1, instrucao))
+
 
 def informar_fim(**kwargs):
     with open(os.path.join(caminho_absoluto, 'receita.txt'), 'a') as f:
         f.write('FIM\n')
+
 
 default_args = {
     'owner': 'airflow',
@@ -56,7 +70,7 @@ default_args = {
 }
 
 dag = DAG(
-    'preparo_receita',
+    'preparo_receita_almoco',
     default_args=default_args,
     description='DAG que verifica o tempo de preparo da receita e formata o JSON em uma receita legível',
     schedule_interval=None,
@@ -88,4 +102,5 @@ tarefa_informar_fim = PythonOperator(
 
 fim = DummyOperator(task_id='fim', dag=dag)
 
-inicio >> [tarefa_verificar_tempo_preparo, tarefa_formatar_receita] >> tarefa_informar_fim >> fim
+inicio >> [tarefa_verificar_tempo_preparo,
+           tarefa_formatar_receita] >> tarefa_informar_fim >> fim
