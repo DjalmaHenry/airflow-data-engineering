@@ -1,0 +1,32 @@
+[2023-04-16T14:37:39.654+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preparo_receita.formatar_receita manual__2023-04-16T14:37:37.477326+00:00 [queued]>
+[2023-04-16T14:37:39.661+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preparo_receita.formatar_receita manual__2023-04-16T14:37:37.477326+00:00 [queued]>
+[2023-04-16T14:37:39.661+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-16T14:37:39.662+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-16T14:37:39.662+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-16T14:37:39.673+0000] {taskinstance.py:1303} INFO - Executing <Task(PythonOperator): formatar_receita> on 2023-04-16 14:37:37.477326+00:00
+[2023-04-16T14:37:39.680+0000] {standard_task_runner.py:55} INFO - Started process 53 to run task
+[2023-04-16T14:37:39.684+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'preparo_receita', 'formatar_receita', 'manual__2023-04-16T14:37:37.477326+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/preparo_receita_dag.py', '--cfg-path', '/tmp/tmp202l9hkn']
+[2023-04-16T14:37:39.686+0000] {standard_task_runner.py:83} INFO - Job 165: Subtask formatar_receita
+[2023-04-16T14:37:39.752+0000] {task_command.py:388} INFO - Running <TaskInstance: preparo_receita.formatar_receita manual__2023-04-16T14:37:37.477326+00:00 [running]> on host 74f80fb1551d
+[2023-04-16T14:37:39.808+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=preparo_receita
+AIRFLOW_CTX_TASK_ID=formatar_receita
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-16T14:37:37.477326+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-16T14:37:37.477326+00:00
+[2023-04-16T14:37:39.811+0000] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/preparo_receita_dag.py", line 30, in formatar_receita
+    with open(os.path.join(caminho_absoluto, 'receita.json'), 'r') as f:
+NameError: name 'os' is not defined
+[2023-04-16T14:37:39.821+0000] {taskinstance.py:1326} INFO - Marking task as FAILED. dag_id=preparo_receita, task_id=formatar_receita, execution_date=20230416T143737, start_date=20230416T143739, end_date=20230416T143739
+[2023-04-16T14:37:39.830+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 165 for task formatar_receita (name 'os' is not defined; 53)
+[2023-04-16T14:37:39.858+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-04-16T14:37:39.877+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check
