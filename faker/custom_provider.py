@@ -1,4 +1,6 @@
-from faker.providers import DynamicProvider, BaseProvider
+import faker
+from faker.providers import BaseProvider
+
 
 class MarketProvider(BaseProvider):
     def product(self):
