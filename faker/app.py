@@ -26,42 +26,44 @@ s3 = boto3.client(
     aws_secret_access_key=MINIO_KEY
 )
 
-complete_name = fake.name()
-complete_name_split = complete_name.split(' ')
-first_name = ' '.join(complete_name_split[::-1])
-last_name = complete_name_split[-1]
-email = fake.email()
-item = fake.product()
-item_quantity = np.random.randint(low=0,high=10)
+for iteraction in range(0, 1000):
+
+    complete_name = fake.name()
+    complete_name_split = complete_name.split(' ')
+    first_name = ' '.join(complete_name_split[::-1])
+    last_name = complete_name_split[-1]
+    email = fake.email()
+    item = fake.product()
+    item_quantity = np.random.randint(low=0,high=10)
 
 
-dict_record = {
-    "first_name":first_name,
-    "last_name":last_name,
-    "email":email,
-    "item":item,
-    "item_quantity":item_quantity
-}
+    dict_record = {
+        "first_name":first_name,
+        "last_name":last_name,
+        "email":email,
+        "item":item,
+        "item_quantity":item_quantity
+    }
 
-json_record = json.dumps(dict_record)
+    json_record = json.dumps(dict_record)
 
-dt = datetime.datetime.now()
-dt_str = dt.strftime("%Y_%-m_%-d_%-H_%-M_%-S_%f")[:-3]
+    dt = datetime.datetime.now()
+    dt_str = dt.strftime("%Y_%-m_%-d_%-H_%-M_%-S_%f")[:-3]
 
 
-bucket_name = 'landing'
-file_path = f"/market_random_data/json/"
-file_name = f"market_{dt_str}.json"
-object_key = file_path + file_name
+    bucket_name = 'landing'
+    file_path = f"/market_random_data/json/"
+    file_name = f"market_{dt_str}.json"
+    object_key = file_path + file_name
 
-response = s3.put_object(
-    Bucket=bucket_name, 
-    Key=object_key, 
-    Body = json_record
-)
+    response = s3.put_object(
+        Bucket=bucket_name, 
+        Key=object_key, 
+        Body = json_record
+    )
 
-# Check if the response was successful
-if response['ResponseMetadata']['HTTPStatusCode'] == 200:
-    print('JSON file written to S3 successfully!')
-else:
-    print('Failed to write JSON file to S3.')
+    # Check if the response was successful
+    if response['ResponseMetadata']['HTTPStatusCode'] == 200:
+        print('JSON file written to S3 successfully!')
+    else:
+        print('Failed to write JSON file to S3.')
