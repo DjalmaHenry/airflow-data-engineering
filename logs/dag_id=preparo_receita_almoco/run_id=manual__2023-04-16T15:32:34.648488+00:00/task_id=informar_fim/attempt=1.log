@@ -1,0 +1,23 @@
+[2023-04-16T15:32:38.864+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preparo_receita_almoco.informar_fim manual__2023-04-16T15:32:34.648488+00:00 [queued]>
+[2023-04-16T15:32:38.871+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preparo_receita_almoco.informar_fim manual__2023-04-16T15:32:34.648488+00:00 [queued]>
+[2023-04-16T15:32:38.871+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-16T15:32:38.871+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-16T15:32:38.872+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-16T15:32:38.880+0000] {taskinstance.py:1303} INFO - Executing <Task(PythonOperator): informar_fim> on 2023-04-16 15:32:34.648488+00:00
+[2023-04-16T15:32:38.885+0000] {standard_task_runner.py:55} INFO - Started process 56 to run task
+[2023-04-16T15:32:38.889+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'preparo_receita_almoco', 'informar_fim', 'manual__2023-04-16T15:32:34.648488+00:00', '--job-id', '213', '--raw', '--subdir', 'DAGS_FOLDER/preparo_receita_almoco_dag.py', '--cfg-path', '/tmp/tmpwetxorac']
+[2023-04-16T15:32:38.890+0000] {standard_task_runner.py:83} INFO - Job 213: Subtask informar_fim
+[2023-04-16T15:32:38.947+0000] {task_command.py:388} INFO - Running <TaskInstance: preparo_receita_almoco.informar_fim manual__2023-04-16T15:32:34.648488+00:00 [running]> on host 74f80fb1551d
+[2023-04-16T15:32:39.002+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=preparo_receita_almoco
+AIRFLOW_CTX_TASK_ID=informar_fim
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-16T15:32:34.648488+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-16T15:32:34.648488+00:00
+[2023-04-16T15:32:39.006+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-16T15:32:39.015+0000] {taskinstance.py:1326} INFO - Marking task as SUCCESS. dag_id=preparo_receita_almoco, task_id=informar_fim, execution_date=20230416T153234, start_date=20230416T153238, end_date=20230416T153239
+[2023-04-16T15:32:39.062+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-16T15:32:39.079+0000] {taskinstance.py:2585} INFO - 1 downstream tasks scheduled from follow-on schedule check

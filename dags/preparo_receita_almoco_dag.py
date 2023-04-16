@@ -1,5 +1,6 @@
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
+from pytz import timezone
 import os
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
@@ -19,7 +20,9 @@ def verificar_tempo_preparo(**kwargs):
                 break
 
     tempo_preparo = receita_almoco['time']
-    agora = datetime.now()
+
+    tz_brasilia = timezone('America/Sao_Paulo')
+    agora = datetime.now(tz_brasilia)
     limite = agora.replace(hour=12, minute=0, second=0)
 
     tempo_restante = limite - agora
@@ -27,12 +30,12 @@ def verificar_tempo_preparo(**kwargs):
 
     if tempo_preparo <= segundos_restante:
         with open(os.path.join(caminho_absoluto, 'receita.txt'), 'a') as f:
-            f.write('Há tempo suficiente para preparar a receita.\n')
+            f.write('\nHá tempo suficiente para preparar a receita.\n')
         return True
     else:
         with open(os.path.join(caminho_absoluto, 'receita.txt'), 'a') as f:
-            f.write('Não há tempo suficiente para preparar a receita.\n')
-        raise ValueError('Não há tempo suficiente para preparar a receita.')
+            f.write('\nNão há tempo suficiente para preparar a receita.\n')
+        raise ValueError('\nNão há tempo suficiente para preparar a receita.')
 
 
 def formatar_receita(**kwargs):
@@ -43,6 +46,11 @@ def formatar_receita(**kwargs):
             if receita['nome'] == 'Almoço':
                 receita_almoco = receita
                 break
+
+    if not receita_almoco or not receita_almoco['nome'] or not receita_almoco['ingredientes'] or not receita_almoco['instrucoes']:
+        with open(os.path.join(caminho_absoluto, 'receita.txt'), 'a') as f:
+            f.write('Está faltando informações na receita.\n')
+        raise ValueError('Informações insuficientes na receita de almoço.')
 
     with open(os.path.join(caminho_absoluto, 'receita.txt'), 'a') as f:
         f.write('Receita: {}\n'.format(receita_almoco['nome']))

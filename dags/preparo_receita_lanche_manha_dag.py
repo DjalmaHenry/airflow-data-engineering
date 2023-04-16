@@ -1,5 +1,6 @@
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
+from pytz import timezone
 import os
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
@@ -12,14 +13,16 @@ caminho_absoluto = os.path.dirname(os.path.abspath(__file__))
 def verificar_tempo_preparo(**kwargs):
     with open(os.path.join(caminho_absoluto, 'receita.json'), 'r') as f:
         dados_receita = json.load(f)
-        receita_lanche = None
+        receita_almoco = None
         for receita in dados_receita['receitas']:
-            if receita['nome'] == 'Lanche da Manhã':
-                receita_lanche = receita
+            if receita['nome'] == 'Almoço':
+                receita_almoco = receita
                 break
 
-    tempo_preparo = receita_lanche['time']
-    agora = datetime.now()
+    tempo_preparo = receita_almoco['time']
+
+    tz_brasilia = timezone('America/Sao_Paulo')
+    agora = datetime.now(tz_brasilia)
     limite = agora.replace(hour=9, minute=0, second=0)
 
     tempo_restante = limite - agora
@@ -27,31 +30,36 @@ def verificar_tempo_preparo(**kwargs):
 
     if tempo_preparo <= segundos_restante:
         with open(os.path.join(caminho_absoluto, 'receita.txt'), 'a') as f:
-            f.write('Há tempo suficiente para preparar a receita.\n')
+            f.write('\nHá tempo suficiente para preparar a receita.\n')
         return True
     else:
         with open(os.path.join(caminho_absoluto, 'receita.txt'), 'a') as f:
-            f.write('Não há tempo suficiente para preparar a receita.\n')
-        raise ValueError('Não há tempo suficiente para preparar a receita.')
+            f.write('\nNão há tempo suficiente para preparar a receita.\n')
+        raise ValueError('\nNão há tempo suficiente para preparar a receita.')
 
 
 def formatar_receita(**kwargs):
     with open(os.path.join(caminho_absoluto, 'receita.json'), 'r') as f:
         dados_receita = json.load(f)
-        receita_lanche = None
+        receita_almoco = None
         for receita in dados_receita['receitas']:
             if receita['nome'] == 'Lanche da Manhã':
-                receita_lanche = receita
+                receita_almoco = receita
                 break
 
+    if not receita_almoco or not receita_almoco['nome'] or not receita_almoco['ingredientes'] or not receita_almoco['instrucoes']:
+        with open(os.path.join(caminho_absoluto, 'receita.txt'), 'a') as f:
+            f.write('Está faltando informações na receita.\n')
+        raise ValueError('Informações insuficientes na receita de almoço.')
+
     with open(os.path.join(caminho_absoluto, 'receita.txt'), 'a') as f:
-        f.write('Receita: {}\n'.format(receita_lanche['nome']))
+        f.write('Receita: {}\n'.format(receita_almoco['nome']))
         f.write('Ingredientes:\n')
-        for ingrediente in receita_lanche['ingredientes']:
+        for ingrediente in receita_almoco['ingredientes']:
             f.write(' - {}\n'.format(ingrediente))
 
         f.write('Instruções:\n')
-        for i, instrucao in enumerate(receita_lanche['instrucoes']):
+        for i, instrucao in enumerate(receita_almoco['instrucoes']):
             f.write('{}. {}\n'.format(i + 1, instrucao))
 
 

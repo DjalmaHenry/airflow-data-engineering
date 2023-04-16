@@ -1,0 +1,32 @@
+[2023-04-16T15:14:09.903+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preparo_receita_almoco.verificar_tempo_preparo manual__2023-04-16T15:14:07.144690+00:00 [queued]>
+[2023-04-16T15:14:09.914+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preparo_receita_almoco.verificar_tempo_preparo manual__2023-04-16T15:14:07.144690+00:00 [queued]>
+[2023-04-16T15:14:09.915+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-16T15:14:09.916+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-16T15:14:09.917+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-16T15:14:09.927+0000] {taskinstance.py:1303} INFO - Executing <Task(PythonOperator): verificar_tempo_preparo> on 2023-04-16 15:14:07.144690+00:00
+[2023-04-16T15:14:09.940+0000] {standard_task_runner.py:55} INFO - Started process 54 to run task
+[2023-04-16T15:14:09.947+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'preparo_receita_almoco', 'verificar_tempo_preparo', 'manual__2023-04-16T15:14:07.144690+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/preparo_receita_almoco_dag.py', '--cfg-path', '/tmp/tmp8yslmgnm']
+[2023-04-16T15:14:09.949+0000] {standard_task_runner.py:83} INFO - Job 189: Subtask verificar_tempo_preparo
+[2023-04-16T15:14:10.071+0000] {task_command.py:388} INFO - Running <TaskInstance: preparo_receita_almoco.verificar_tempo_preparo manual__2023-04-16T15:14:07.144690+00:00 [running]> on host 74f80fb1551d
+[2023-04-16T15:14:10.142+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=preparo_receita_almoco
+AIRFLOW_CTX_TASK_ID=verificar_tempo_preparo
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-16T15:14:07.144690+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-16T15:14:07.144690+00:00
+[2023-04-16T15:14:10.144+0000] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/preparo_receita_almoco_dag.py", line 23, in verificar_tempo_preparo
+    f.write('Agora: {}\n'.format(agora))
+ValueError: I/O operation on closed file.
+[2023-04-16T15:14:10.154+0000] {taskinstance.py:1326} INFO - Marking task as FAILED. dag_id=preparo_receita_almoco, task_id=verificar_tempo_preparo, execution_date=20230416T151407, start_date=20230416T151409, end_date=20230416T151410
+[2023-04-16T15:14:10.165+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 189 for task verificar_tempo_preparo (I/O operation on closed file.; 54)
+[2023-04-16T15:14:10.202+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-04-16T15:14:10.231+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check
