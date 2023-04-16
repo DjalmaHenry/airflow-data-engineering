@@ -15,7 +15,7 @@ def verificar_tempo_preparo(**kwargs):
         dados_receita = json.load(f)
         receita_almoco = None
         for receita in dados_receita['receitas']:
-            if receita['nome'] == 'Almoço':
+            if receita['tipo'] == 'refeição principal':
                 receita_almoco = receita
                 break
 
@@ -43,7 +43,7 @@ def formatar_receita(**kwargs):
         dados_receita = json.load(f)
         receita_almoco = None
         for receita in dados_receita['receitas']:
-            if receita['nome'] == 'Almoço':
+            if receita['tipo'] == 'refeição principal':
                 receita_almoco = receita
                 break
 

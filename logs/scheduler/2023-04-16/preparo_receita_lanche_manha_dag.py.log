@@ -352,3 +352,122 @@
 [2023-04-16T15:36:53.852+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:36:53.851+0000] {dag.py:2693} INFO - Sync 1 DAGs
 [2023-04-16T15:36:53.873+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:36:53.873+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
 [2023-04-16T15:36:53.887+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.123 seconds
+[2023-04-16T15:42:52.377+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:42:52.382+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:42:52.388+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:42:52.388+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:42:52.498+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:42:52.614+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:42:52.614+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:42:52.640+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:42:52.640+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:42:52.687+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.324 seconds
+[2023-04-16T15:43:23.053+0000] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:43:23.055+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:43:23.057+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:23.057+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:43:23.079+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:43:23.123+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:23.122+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:43:23.145+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:23.144+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:43:23.157+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.111 seconds
+[2023-04-16T15:43:53.900+0000] {processor.py:153} INFO - Started process (PID=140) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:43:53.902+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:43:53.903+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:53.903+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:43:53.927+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:43:53.973+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:53.973+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:43:53.995+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:53.995+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:43:54.009+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.117 seconds
+[2023-04-16T15:44:24.914+0000] {processor.py:153} INFO - Started process (PID=191) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:44:24.917+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:44:24.923+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:24.923+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:44:24.948+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:44:24.977+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:24.976+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:44:24.996+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:24.996+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:44:25.009+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.109 seconds
+[2023-04-16T15:44:55.395+0000] {processor.py:153} INFO - Started process (PID=242) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:44:55.398+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:44:55.398+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:55.398+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:44:55.437+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:44:55.462+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:55.462+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:44:55.496+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:55.496+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:44:55.509+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.118 seconds
+[2023-04-16T15:45:59.016+0000] {processor.py:153} INFO - Started process (PID=33) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:45:59.021+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:45:59.024+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:45:59.024+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:45:59.093+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:45:59.267+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:45:59.266+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:45:59.290+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:45:59.290+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:45:59.311+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.303 seconds
+[2023-04-16T15:46:30.032+0000] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:46:30.034+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:46:30.035+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:46:30.035+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:46:30.075+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:46:30.111+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:46:30.111+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:46:30.134+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:46:30.134+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:46:30.160+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.135 seconds
+[2023-04-16T15:47:31.572+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:47:31.583+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:47:31.588+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:47:31.587+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:47:31.659+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:47:31.801+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:47:31.801+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:47:31.898+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:47:31.898+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:47:31.963+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.399 seconds
+[2023-04-16T15:48:02.519+0000] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:48:02.524+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:48:02.528+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:02.528+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:48:02.561+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:48:02.603+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:02.603+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:48:02.627+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:02.627+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:48:02.642+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.133 seconds
+[2023-04-16T15:48:33.642+0000] {processor.py:153} INFO - Started process (PID=144) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:48:33.644+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:48:33.645+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:33.645+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:48:33.669+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:48:33.696+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:33.696+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:48:33.714+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:33.714+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:48:33.729+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.096 seconds
+[2023-04-16T15:49:04.259+0000] {processor.py:153} INFO - Started process (PID=195) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:49:04.262+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:49:04.264+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:04.263+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:49:04.296+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:49:04.331+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:04.331+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:49:04.352+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:04.351+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:49:04.364+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.111 seconds
+[2023-04-16T15:49:34.691+0000] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:49:34.694+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:49:34.695+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:34.695+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:49:34.732+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:49:34.759+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:34.759+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:49:34.778+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:34.778+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:49:34.789+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.104 seconds
+[2023-04-16T15:50:02.699+0000] {processor.py:153} INFO - Started process (PID=35) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:50:02.702+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:50:02.703+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:02.703+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:50:02.760+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:50:02.887+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:02.887+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:50:02.911+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:02.911+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:50:02.955+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.263 seconds
+[2023-04-16T15:50:33.967+0000] {processor.py:153} INFO - Started process (PID=90) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:50:33.971+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:50:33.972+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:33.972+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:50:34.023+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:50:34.057+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:34.057+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:50:34.077+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:34.077+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:50:34.089+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.129 seconds
+[2023-04-16T15:51:04.648+0000] {processor.py:153} INFO - Started process (PID=141) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:51:04.651+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:51:04.652+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:04.652+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:51:04.676+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:51:04.705+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:04.705+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:51:04.737+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:04.737+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:51:04.749+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.108 seconds
+[2023-04-16T15:51:35.400+0000] {processor.py:153} INFO - Started process (PID=192) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:51:35.403+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:51:35.405+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:35.405+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:51:35.433+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:51:35.468+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:35.468+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:51:35.492+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:35.492+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:51:35.506+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.126 seconds
+[2023-04-16T15:52:05.771+0000] {processor.py:153} INFO - Started process (PID=243) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:52:05.773+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-16T15:52:05.775+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:05.775+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:52:05.816+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-16T15:52:05.846+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:05.846+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:52:05.874+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:05.874+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-16T15:52:05.901+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.137 seconds

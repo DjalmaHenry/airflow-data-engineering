@@ -1,0 +1,34 @@
+[2023-04-16T15:48:28.266+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: preparo_receita_lanche_manha.verificar_tempo_preparo manual__2023-04-16T15:48:26.478249+00:00 [queued]>
+[2023-04-16T15:48:28.276+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: preparo_receita_lanche_manha.verificar_tempo_preparo manual__2023-04-16T15:48:26.478249+00:00 [queued]>
+[2023-04-16T15:48:28.277+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-16T15:48:28.278+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-16T15:48:28.278+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-16T15:48:28.301+0000] {taskinstance.py:1303} INFO - Executing <Task(PythonOperator): verificar_tempo_preparo> on 2023-04-16 15:48:26.478249+00:00
+[2023-04-16T15:48:28.314+0000] {standard_task_runner.py:55} INFO - Started process 78 to run task
+[2023-04-16T15:48:28.318+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'preparo_receita_lanche_manha', 'verificar_tempo_preparo', 'manual__2023-04-16T15:48:26.478249+00:00', '--job-id', '229', '--raw', '--subdir', 'DAGS_FOLDER/preparo_receita_lanche_manha_dag.py', '--cfg-path', '/tmp/tmpo03r8wpm']
+[2023-04-16T15:48:28.321+0000] {standard_task_runner.py:83} INFO - Job 229: Subtask verificar_tempo_preparo
+[2023-04-16T15:48:28.597+0000] {task_command.py:388} INFO - Running <TaskInstance: preparo_receita_lanche_manha.verificar_tempo_preparo manual__2023-04-16T15:48:26.478249+00:00 [running]> on host 74f80fb1551d
+[2023-04-16T15:48:28.802+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=preparo_receita_lanche_manha
+AIRFLOW_CTX_TASK_ID=verificar_tempo_preparo
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-16T15:48:26.478249+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-16T15:48:26.478249+00:00
+[2023-04-16T15:48:28.828+0000] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/preparo_receita_lanche_manha_dag.py", line 38, in verificar_tempo_preparo
+    raise ValueError('\nNão há tempo suficiente para preparar a receita.')
+ValueError: 
+Não há tempo suficiente para preparar a receita.
+[2023-04-16T15:48:28.903+0000] {taskinstance.py:1326} INFO - Marking task as FAILED. dag_id=preparo_receita_lanche_manha, task_id=verificar_tempo_preparo, execution_date=20230416T154826, start_date=20230416T154828, end_date=20230416T154828
+[2023-04-16T15:48:28.972+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 229 for task verificar_tempo_preparo (
+Não há tempo suficiente para preparar a receita.; 78)
+[2023-04-16T15:48:29.043+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-04-16T15:48:29.080+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

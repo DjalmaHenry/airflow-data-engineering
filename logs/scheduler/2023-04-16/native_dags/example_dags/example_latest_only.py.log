@@ -894,3 +894,122 @@
 [2023-04-16T15:36:59.333+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:36:59.333+0000] {dag.py:2693} INFO - Sync 1 DAGs
 [2023-04-16T15:36:59.352+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:36:59.351+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:36:59.351757+00:00, run_after=2023-04-16T15:36:59.351757+00:00
 [2023-04-16T15:36:59.366+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2023-04-16T15:42:56.895+0000] {processor.py:153} INFO - Started process (PID=60) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:42:56.901+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:42:56.905+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:42:56.904+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:42:56.951+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:42:56.979+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:42:56.978+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:42:57.009+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:42:57.009+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:42:57.009189+00:00, run_after=2023-04-16T15:42:57.009189+00:00
+[2023-04-16T15:42:57.051+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.206 seconds
+[2023-04-16T15:43:27.616+0000] {processor.py:153} INFO - Started process (PID=115) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:43:27.618+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:43:27.619+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:27.619+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:43:27.628+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:43:27.647+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:27.647+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:43:27.663+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:27.663+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:43:27.663007+00:00, run_after=2023-04-16T15:43:27.663007+00:00
+[2023-04-16T15:43:27.676+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.062 seconds
+[2023-04-16T15:43:58.661+0000] {processor.py:153} INFO - Started process (PID=166) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:43:58.662+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:43:58.663+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:58.663+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:43:58.673+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:43:58.692+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:58.692+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:43:58.709+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:43:58.708+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:43:58.708746+00:00, run_after=2023-04-16T15:43:58.708746+00:00
+[2023-04-16T15:43:58.731+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.074 seconds
+[2023-04-16T15:44:29.203+0000] {processor.py:153} INFO - Started process (PID=217) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:44:29.204+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:44:29.205+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:29.205+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:44:29.224+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:44:29.249+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:29.249+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:44:29.268+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:29.267+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:44:29.267699+00:00, run_after=2023-04-16T15:44:29.267699+00:00
+[2023-04-16T15:44:29.284+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-04-16T15:44:59.786+0000] {processor.py:153} INFO - Started process (PID=268) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:44:59.788+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:44:59.790+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:59.789+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:44:59.801+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:44:59.821+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:59.821+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:44:59.839+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:44:59.839+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:44:59.838936+00:00, run_after=2023-04-16T15:44:59.838936+00:00
+[2023-04-16T15:44:59.854+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.071 seconds
+[2023-04-16T15:46:04.906+0000] {processor.py:153} INFO - Started process (PID=59) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:46:04.910+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:46:04.914+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:46:04.913+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:46:04.943+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:46:04.986+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:46:04.986+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:46:05.047+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:46:05.047+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:46:05.045939+00:00, run_after=2023-04-16T15:46:05.045939+00:00
+[2023-04-16T15:46:05.122+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.225 seconds
+[2023-04-16T15:46:35.599+0000] {processor.py:153} INFO - Started process (PID=115) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:46:35.604+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:46:35.605+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:46:35.605+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:46:35.616+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:46:35.637+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:46:35.637+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:46:35.656+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:46:35.656+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:46:35.656083+00:00, run_after=2023-04-16T15:46:35.656083+00:00
+[2023-04-16T15:46:35.667+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.071 seconds
+[2023-04-16T15:47:37.657+0000] {processor.py:153} INFO - Started process (PID=60) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:47:37.659+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:47:37.661+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:47:37.661+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:47:37.695+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:47:37.748+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:47:37.747+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:47:37.821+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:47:37.821+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:47:37.820777+00:00, run_after=2023-04-16T15:47:37.820777+00:00
+[2023-04-16T15:47:37.883+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.230 seconds
+[2023-04-16T15:48:08.032+0000] {processor.py:153} INFO - Started process (PID=115) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:48:08.033+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:48:08.034+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:08.034+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:48:08.044+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:48:08.063+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:08.063+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:48:08.079+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:08.078+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:48:08.078770+00:00, run_after=2023-04-16T15:48:08.078770+00:00
+[2023-04-16T15:48:08.092+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.063 seconds
+[2023-04-16T15:48:39.153+0000] {processor.py:153} INFO - Started process (PID=170) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:48:39.154+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:48:39.155+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:39.155+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:48:39.166+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:48:39.193+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:39.193+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:48:39.210+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:48:39.210+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:48:39.210628+00:00, run_after=2023-04-16T15:48:39.210628+00:00
+[2023-04-16T15:48:39.222+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.072 seconds
+[2023-04-16T15:49:09.644+0000] {processor.py:153} INFO - Started process (PID=221) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:49:09.645+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:49:09.646+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:09.646+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:49:09.656+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:49:09.676+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:09.676+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:49:09.692+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:09.692+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:49:09.692149+00:00, run_after=2023-04-16T15:49:09.692149+00:00
+[2023-04-16T15:49:09.703+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.062 seconds
+[2023-04-16T15:49:40.147+0000] {processor.py:153} INFO - Started process (PID=272) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:49:40.149+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:49:40.150+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:40.150+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:49:40.160+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:49:40.181+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:40.181+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:49:40.198+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:49:40.198+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:49:40.197862+00:00, run_after=2023-04-16T15:49:40.197862+00:00
+[2023-04-16T15:49:40.209+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2023-04-16T15:50:05.751+0000] {processor.py:153} INFO - Started process (PID=61) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:50:05.759+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:50:05.763+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:05.763+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:50:05.786+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:50:05.838+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:05.838+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:50:05.879+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:05.879+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:50:05.879333+00:00, run_after=2023-04-16T15:50:05.879333+00:00
+[2023-04-16T15:50:05.920+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.179 seconds
+[2023-04-16T15:50:36.362+0000] {processor.py:153} INFO - Started process (PID=115) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:50:36.363+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:50:36.365+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:36.364+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:50:36.378+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:50:36.397+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:36.397+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:50:36.416+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:50:36.416+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:50:36.415969+00:00, run_after=2023-04-16T15:50:36.415969+00:00
+[2023-04-16T15:50:36.427+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds
+[2023-04-16T15:51:07.147+0000] {processor.py:153} INFO - Started process (PID=167) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:51:07.149+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:51:07.149+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:07.149+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:51:07.160+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:51:07.180+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:07.180+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:51:07.196+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:07.196+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:51:07.196123+00:00, run_after=2023-04-16T15:51:07.196123+00:00
+[2023-04-16T15:51:07.206+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.062 seconds
+[2023-04-16T15:51:37.438+0000] {processor.py:153} INFO - Started process (PID=218) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:51:37.439+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:51:37.440+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:37.440+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:51:37.450+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:51:37.470+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:37.470+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:51:37.489+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:51:37.489+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:51:37.488882+00:00, run_after=2023-04-16T15:51:37.488882+00:00
+[2023-04-16T15:51:37.502+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.067 seconds
+[2023-04-16T15:52:08.186+0000] {processor.py:153} INFO - Started process (PID=269) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:52:08.188+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-16T15:52:08.188+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:08.188+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:52:08.198+0000] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-16T15:52:08.216+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:08.216+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-16T15:52:08.233+0000] {logging_mixin.py:137} INFO - [2023-04-16T15:52:08.233+0000] {dag.py:3444} INFO - Setting next_dagrun for latest_only to 2023-04-16T11:52:08.233558+00:00, run_after=2023-04-16T15:52:08.233558+00:00
+[2023-04-16T15:52:08.245+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.062 seconds
