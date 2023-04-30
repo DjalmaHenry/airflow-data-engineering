@@ -1,0 +1,14 @@
+[2023-04-28T15:04:39.440+0000] {processor.py:153} INFO - Started process (PID=35) to work on /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-28T15:04:39.445+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_almoco_dag.py for tasks to queue
+[2023-04-28T15:04:39.449+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:04:39.448+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-28T15:04:39.740+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_almoco']) retrieved from /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-28T15:04:39.953+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:04:39.953+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-28T15:04:40.094+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:04:40.093+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_almoco to None, run_after=None
+[2023-04-28T15:04:41.446+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:04:41.445+0000] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...
+[2023-04-28T15:12:43.131+0000] {processor.py:153} INFO - Started process (PID=35) to work on /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-28T15:12:43.132+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_almoco_dag.py for tasks to queue
+[2023-04-28T15:12:43.134+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:12:43.133+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-28T15:12:43.179+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_almoco']) retrieved from /opt/airflow/dags/preparo_receita_almoco_dag.py
+[2023-04-28T15:12:43.241+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:12:43.241+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-28T15:12:43.293+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:12:43.292+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_almoco to None, run_after=None
+[2023-04-28T15:12:43.347+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_almoco_dag.py took 0.220 seconds

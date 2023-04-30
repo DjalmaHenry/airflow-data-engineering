@@ -1,0 +1,13 @@
+[2023-04-28T15:04:39.442+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-28T15:04:39.446+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-28T15:04:39.448+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:04:39.448+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-28T15:04:39.757+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-28T15:04:39.986+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:04:39.986+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-28T15:04:40.160+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:04:40.117+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-28T15:12:43.127+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-28T15:12:43.130+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/preparo_receita_lanche_manha_dag.py for tasks to queue
+[2023-04-28T15:12:43.132+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:12:43.132+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-28T15:12:43.178+0000] {processor.py:753} INFO - DAG(s) dict_keys(['preparo_receita_lanche_manha']) retrieved from /opt/airflow/dags/preparo_receita_lanche_manha_dag.py
+[2023-04-28T15:12:43.241+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:12:43.241+0000] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-28T15:12:43.286+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:12:43.286+0000] {dag.py:3444} INFO - Setting next_dagrun for preparo_receita_lanche_manha to None, run_after=None
+[2023-04-28T15:12:43.318+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/preparo_receita_lanche_manha_dag.py took 0.197 seconds

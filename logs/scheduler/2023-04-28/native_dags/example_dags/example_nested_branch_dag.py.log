@@ -1,0 +1,5 @@
+[2023-04-28T15:12:48.605+0000] {processor.py:153} INFO - Started process (PID=58) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-04-28T15:12:48.608+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-04-28T15:12:48.609+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:12:48.609+0000] {dagbag.py:532} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-04-28T15:12:48.653+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-04-28T15:12:49.533+0000] {logging_mixin.py:137} INFO - [2023-04-28T15:12:49.532+0000] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...
