@@ -13,7 +13,7 @@ default_args = {
 dag = DAG(
     "pokemon_extraction",
     default_args=default_args,
-    schedule_interval="20 09 * * 2",
+    schedule_interval="20 12 * * 2",
     max_active_runs=1,
 )
 
