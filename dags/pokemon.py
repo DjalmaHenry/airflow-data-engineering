@@ -9,15 +9,17 @@ def extract_pokemon():
     pokemon_list = {'pokemon_list': list()}
 
     while url != None:
-        payload={}
+        payload = {}
         headers = {}
-        response = json.loads(requests.request("GET", url, headers=headers, data=payload).text)
+        response = json.loads(requests.request(
+            "GET", url, headers=headers, data=payload).text)
         url = response["next"]
 
         for item in response["results"]:
             pokemon_name = item["name"]
             url_pokemon = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name}"
-            response_pokemon = json.loads(requests.request("GET", url_pokemon, headers=headers, data=payload).text)
+            response_pokemon = json.loads(requests.request(
+                "GET", url_pokemon, headers=headers, data=payload).text)
 
             infos = {
                 "name": pokemon_name,
@@ -30,8 +32,10 @@ def extract_pokemon():
             pokemon_list['pokemon_list'].append(infos)
             print(response_pokemon["id"])
 
-    bucket_name = "airflow-pipelines"
+    bucket_name = "airflow-api-backups"
     bucket = storage.Client().get_bucket(bucket_name)
-    blob = bucket.blob("pokemon_file_" + datetime.now().strftime("%d_%m_%Y") + ".json")
+    blob = bucket.blob("pokemon_file_" +
+                       datetime.now().strftime("%d_%m_%Y") + ".json")
     print(f"Salvando arquivo em: {bucket_name}")
-    blob.upload_from_string(data=json.dumps(pokemon_list), content_type='application/json')  
+    blob.upload_from_string(data=json.dumps(
+        pokemon_list), content_type='application/json')
