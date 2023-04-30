@@ -32,6 +32,6 @@ def extract_pokemon():
 
     bucket_name = "airflow-pipelines"
     bucket = storage.Client().get_bucket(bucket_name)
-    blob = bucket.blob("pokemon_file.json")
+    blob = bucket.blob("pokemon_file_" + datetime.now().strftime("%d_%m_%Y") + ".json")
     print(f"Salvando arquivo em: {bucket_name}")
     blob.upload_from_string(data=json.dumps(pokemon_list), content_type='application/json')  
